@@ -1,0 +1,32 @@
+#rootSection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height:100vh;
+
+}
+#headerSection{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnLarge {
+    border: 1.25px solid #ED3E3E;
+    border-radius: 8px;
+    color:#ED3E3E;
+    background:white;
+    width: 40%;
+    padding: 10px 10px;
+    margin: 0 10px;
+    font-size: 16px;
+}
+.btnLarge:hover{
+    background: #ED3E3E;
+    border-radius: 8px;
+    color:white;
+}
+#scrollDown{
+    text-decoration: none;
+    color:#ED3E3E;
+}
