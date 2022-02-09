@@ -15,15 +15,13 @@
     align-items: center;
     flex-wrap: wrap-reverse;
     height:100vh;
-    margin: 30px;
+    margin: 30px 0;
     
 }
 #headerText{
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: space-between;
-    height:50vh;
 }
 
 #scrollDown{
@@ -35,9 +33,6 @@
 #scrollDown:hover{
     cursor:pointer;
 }
-
-
-
 /* -- BENEFITS SECTION -- */
 
 .asideText{
@@ -66,3 +61,26 @@
     text-align:center;
     width:70%;
 }
+/* LEVEL SECTION */
+.CardSection{
+    margin:15px 0;
+}
+.CardBorder{
+    position:relative;
+}
+.borderRight{
+    content:'';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 90%;
+    width:1px;
+    background-color:#ED3E3E
+}
+
+/* BENEFITS CARD SECTION */
+#benefitsHeader{
+    width: 100%;
+    justify-content:start;
+}
+

@@ -10,6 +10,7 @@ import header_image from "../../assets/ilustrations/header_image.png";
 import vector_icon from "../../assets/icons/vector_icon.png";
 import benefits_image from "../../assets/ilustrations/benefits_image.png";
 import ed_naughton_avatar from "../../assets/ilustrations/ed_naughton_avatar.png";
+import CardComponent from "../../elements/card/card";
 
 const HomePage = () => {
   return (
@@ -18,7 +19,7 @@ const HomePage = () => {
       <Row id="headerSection">
         <Col id="headerText" className="col-5">
           <TextComponent
-            className="title"
+            className="title-xl"
             text="Get certified by the official project management body"
           />
           <TextComponent
@@ -43,7 +44,7 @@ const HomePage = () => {
       {/* --- GET TO KNOW US MORE --- */}
       <Row>
         <Col>
-          <TextComponent className="title-m" text="Get to know us more" />
+          <TextComponent className="title-l" text="Get to know us more" />
           <TextComponent
             className="subtitle"
             text="The mission and purpose of IPMA Ireland are to implement and maintain the IPMA® 4-Level Certification System in the Republic of Ireland.
@@ -53,11 +54,11 @@ const HomePage = () => {
         <Col>
           <Row className="justify-content-end">
             <Col className="col-3 text-center">
-              <TextComponent className="title" text="30+" />
+              <TextComponent className="title-xl" text="30+" />
               <TextComponent className="subtitle" text="Active years" />
             </Col>
             <Col className="col-3 text-center">
-              <TextComponent className="title" text="10k+" />
+              <TextComponent className="title-xl" text="10k+" />
               <TextComponent className="subtitle" text="Certified members" />
             </Col>
           </Row>
@@ -96,7 +97,7 @@ const HomePage = () => {
       <Row id="projectMngSection">
         <Row>
           <TextComponent
-            className="title-m"
+            className="title-l"
             text="Project management certification levels"
           />
         </Row>
@@ -106,6 +107,102 @@ const HomePage = () => {
             text="IPMA offers an international, competency-based, four level certification (4-L-C) scheme. In your own country, in your own language, at your own competence level. "
           />
         </Row>
+      </Row>
+      {/* --- Level Section --- */}
+      <Row className="CardSection">
+        <Col className="CardBorder">
+          <CardComponent
+            className="CardL"
+            title="IPMA Level A"
+            subtitle="To possess this certification, you need to demonstrate that you possess the competences as described in the IPMA ICB4, continually and consistently applied these competences in a highly complex environment, taking full responsibility in a leading role."
+            BtnText="Learn more"
+          />
+          <div className="borderRight"></div>
+        </Col>
+
+        <Col>
+          <CardComponent
+            className="CardL"
+            title="IPMA Level B"
+            subtitle="IPMA level B certification is a confirmation of competences at a senior level in projects, programmes and portfolios management. Level B certificate holders have demonstrated the competences described by the IPMA International Competence Baseline®, "
+            BtnText="Learn more"
+          />
+        </Col>
+      </Row>
+      <Row className="CardSection">
+        <Col className="CardBorder">
+          <CardComponent
+            className="CardL"
+            title="IPMA Level C"
+            subtitle="IPMA level C Certification is a confirmation of experience level in managing projects. Level C certificate holders have demonstrated that they possess the competences as described by the IPMA International Competence Baseline®."
+            BtnText="Learn more"
+          />
+          <div className="borderRight"></div>
+        </Col>
+        <Col>
+          <CardComponent
+            className="CardL"
+            title="IPMA Level D"
+            subtitle="Achieving IPMA level D certification is a recognition of your knowledge about managing projects. To possess Level D certification, one needs to demonstrate the competences as described by the IPMA International Competence Baseline®."
+            BtnText="Learn more"
+          />
+        </Col>
+      </Row>
+      <Row className="CardSection">
+        <Col className="CardBorder">
+          <CardComponent
+            className="CardLast"
+            title="Not sure what level to apply for?"
+            subtitle="If you’re not sure what certification level to apply for, hit the button below to contact us so we can suggest an appropriate level based on your current work experience, knowledge level and overall competence."
+            BtnText="Contact Us"
+          />
+          <div className="borderRight"></div>
+        </Col>
+        <Col>
+          <CardComponent
+            className="CardLast"
+            title="Get recertified"
+            subtitle="Certified project managers may apply for re-certification procedure. The conditions of re-certification procedure are project management activities, continuing education and professional development, also acquirement of project management experience and skills."
+            BtnText="Learn more"
+          />
+        </Col>
+      </Row>
+      {/* --- BENEFITS CARD SECTION --- */}
+      <Row id="benefitsHeader">
+        <TextComponent
+          className="title-l"
+          text="Benefits of getting certified by the IPMA"
+        />
+      </Row>
+      <Row id="benefitsCards">
+        <Col className="CardBorder">
+          <CardComponent
+            title="Establish credibility"
+            subtitle="Establishes credibility, since you have participated in an internationally recognised certification programme that is thoroughly vetted"
+          />
+          <div className="borderRight"></div>
+        </Col>
+        <Col className="CardBorder">
+          <CardComponent
+            title="Higher rates"
+            subtitle="Contributes to higher billing rate, because you have provided evidence of your competences, experience and expertise level"
+          />
+          <div className="borderRight"></div>
+        </Col>
+        <Col className="CardBorder">
+          <CardComponent
+            title="New clients"
+            subtitle="Opens doors to new clients, since you can use your accreditation in your communication, and it can be verified in IPMA’s registers"
+          />
+          <div className="borderRight"></div>
+        </Col>
+        <Col>
+          <CardComponent
+            title="Prove competence"
+            subtitle="You are assessed against an international standard, and your achievement will be recognized on IPMA International’s website
+"
+          />
+        </Col>
       </Row>
     </Container>
   );

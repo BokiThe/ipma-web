@@ -1,25 +1,38 @@
-.title {
+.title-xl  {
     font-size:36px;
-    font-weight:bold;
+    font-weight:700;
     line-height: 54px;
     margin: 10px;
+    font-style: medium;
+
+}
+.title-l{
+    font-size:28px;
+    font-weight:700;
+    line-height: 42px;
+    margin: 10px;
+    font-style: medium;
+
+}
+.title-m{
+    font-size:24px;
+    font-weight:700;
+    line-height: 36px;
+    margin: 10px;
+    font-style: medium;
+}
+.title-s{
+    font-size:20px;
+    font-weight:700;
+    line-height: 30px;
+    margin: 10px;
+    font-style: normal;
 }
 .subtitle{
     font-size:16px;
     line-height:24px;
     margin: 10px; 
-}
-.title-m{
-    font-size:28px;
-    font-weight:bold;
-    line-height: 24px;
-    margin: 10px;
-}
-.title-s{
-    font-size:20px;
-    font-weight:bold;
-    line-height: 30px;
-    margin: 10px;
+    font-style: normal;
 }
 
 
