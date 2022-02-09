@@ -10,7 +10,12 @@ import header_image from "../../assets/ilustrations/header_image.png";
 import vector_icon from "../../assets/icons/vector_icon.png";
 import benefits_image from "../../assets/ilustrations/benefits_image.png";
 import ed_naughton_avatar from "../../assets/ilustrations/ed_naughton_avatar.png";
+import lock_image from "../../assets/ilustrations/lock_image.svg";
+import coin_image from "../../assets/ilustrations/coin_image.svg";
+import group_image from "../../assets/ilustrations/group_image.svg";
+import skills_image from "../../assets/ilustrations/skills_image.svg";
 import CardComponent from "../../elements/card/card";
+import CardImgComponent from "../../elements/card/cardImg";
 
 const HomePage = () => {
   return (
@@ -176,28 +181,44 @@ const HomePage = () => {
       </Row>
       <Row id="benefitsCards">
         <Col className="CardBorder">
-          <CardComponent
+          <CardImgComponent
+            className="CardM"
+            imgClass="cardImg"
+            src={lock_image}
+            alt="lock_image"
             title="Establish credibility"
             subtitle="Establishes credibility, since you have participated in an internationally recognised certification programme that is thoroughly vetted"
           />
-          <div className="borderRight"></div>
+          <div className="borderRight1"></div>
         </Col>
         <Col className="CardBorder">
-          <CardComponent
+          <CardImgComponent
+            imgClass="cardImg"
+            src={coin_image}
+            alt="coin_image"
+            className="CardM"
             title="Higher rates"
             subtitle="Contributes to higher billing rate, because you have provided evidence of your competences, experience and expertise level"
           />
-          <div className="borderRight"></div>
+          <div className="borderRight1"></div>
         </Col>
         <Col className="CardBorder">
-          <CardComponent
+          <CardImgComponent
+            className="CardM"
+            imgClass="cardImg"
+            src={group_image}
+            alt="group_image"
             title="New clients"
             subtitle="Opens doors to new clients, since you can use your accreditation in your communication, and it can be verified in IPMA’s registers"
           />
-          <div className="borderRight"></div>
+          <div className="borderRight1"></div>
         </Col>
         <Col>
-          <CardComponent
+          <CardImgComponent
+            className="CardM"
+            imgClass="cardImg"
+            src={skills_image}
+            alt="skills_image"
             title="Prove competence"
             subtitle="You are assessed against an international standard, and your achievement will be recognized on IPMA International’s website
 "
