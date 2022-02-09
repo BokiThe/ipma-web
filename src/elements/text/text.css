@@ -1,7 +1,26 @@
 .title {
     font-size:36px;
     font-weight:bold;
+    line-height: 54px;
+    margin: 10px;
 }
 .subtitle{
     font-size:16px;
+    line-height:24px;
+    margin: 10px; 
 }
+.title-m{
+    font-size:28px;
+    font-weight:bold;
+    line-height: 24px;
+    margin: 10px;
+}
+.title-s{
+    font-size:20px;
+    font-weight:bold;
+    line-height: 30px;
+    margin: 10px;
+}
+
+
+

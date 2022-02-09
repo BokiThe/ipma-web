@@ -1,15 +1,29 @@
 #rootSection{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height:100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    width: 100%;
+    
 
 }
+/* HEADER SECTION */
 #headerSection{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap-reverse;
+    height:100vh;
+    margin: 30px;
+    
+}
+#headerText{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    height:50vh;
 }
 .btnLarge {
     border: 1.25px solid #ED3E3E;
@@ -27,6 +41,44 @@
     color:white;
 }
 #scrollDown{
+    display: inline-block;
     text-decoration: none;
     color:#ED3E3E;
+    margin-top:20px;
+}
+#scrollDown:hover{
+    cursor:pointer;
+}
+
+
+
+/* -- BENEFITS SECTION -- */
+#benefitsSection{
+   margin: 50px 0;
+}
+.asideText{
+    display: flex;
+    flex: 1;
+    flex-direction:column;
+    justify-content:space-between;
+    height:100%;
+    
+}
+
+#messageBauble{
+    background-color: rgba(4, 21, 31, 0.1);
+    padding: 20px ;
+    border-radius: 8px;
+}
+#asideAvatar{
+    display:flex;
+    flex:1;
+    flex-direction:row;
+    margin: 10px 0;
+}
+
+/* PROJECT MENAGEMENT CERTIFICATION */
+#projectMngSection{
+    text-align:center;
+    width:70%;
 }
