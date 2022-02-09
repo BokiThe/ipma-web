@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
+import Button from "../../elements/button/button";
 import TextComponent from "../../elements/text/text";
 import header_image from "../../assets/ilustrations/header_image.png";
 import vector_icon from "../../assets/icons/vector_icon.png";
@@ -27,8 +28,8 @@ const HomePage = () => {
             before issuing. Our certifications are also trusted worldwide."
           />
           <Row>
-            <button className="btnLarge">Explore certifications</button>
-            <button className="btnLarge">Help me choose</button>
+            <Button className="btnLarge" text="Explore certifications" />
+            <Button className="btnLarge" text="Help me choose" />
           </Row>
           <span id="scrollDown" onClick={() => console.log("skrollDown")}>
             Scroll down <Image fluid src={vector_icon}></Image>

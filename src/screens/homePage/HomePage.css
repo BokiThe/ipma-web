@@ -25,21 +25,7 @@
     justify-content: space-between;
     height:50vh;
 }
-.btnLarge {
-    border: 1.25px solid #ED3E3E;
-    border-radius: 8px;
-    color:#ED3E3E;
-    background:white;
-    width: 40%;
-    padding: 10px 10px;
-    margin: 0 10px;
-    font-size: 16px;
-}
-.btnLarge:hover{
-    background: #ED3E3E;
-    border-radius: 8px;
-    color:white;
-}
+
 #scrollDown{
     display: inline-block;
     text-decoration: none;
@@ -53,9 +39,7 @@
 
 
 /* -- BENEFITS SECTION -- */
-#benefitsSection{
-   margin: 50px 0;
-}
+
 .asideText{
     display: flex;
     flex: 1;
