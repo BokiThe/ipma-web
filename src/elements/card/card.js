@@ -7,7 +7,7 @@ const CardComponent = (props) => {
   return (
     <div className={props.className}>
       <TextComponent className="title-l" text={props.title} />
-      <TextComponent className="subtitle" text={props.subtitle} />
+      <TextComponent className="subtitle cardSubtitle" text={props.subtitle} />
       <Button className="btnLarge" text={props.BtnText} />
     </div>
   );

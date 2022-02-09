@@ -6,7 +6,7 @@
     text-align: left;
     height:100%;
     border-bottom: 1px solid #ED3E3E;
-    margin:0 10px;
+  
     
     
 }
@@ -16,10 +16,17 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    height:300px;
+    height:100%;
     padding-bottom: 30px;
    
 }
-.CardM{
-    height: 50%;
+
+.cardM{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    height:100%;
+    padding-bottom: 30px;
 }

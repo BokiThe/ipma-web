@@ -14,6 +14,7 @@ import lock_image from "../../assets/ilustrations/lock_image.svg";
 import coin_image from "../../assets/ilustrations/coin_image.svg";
 import group_image from "../../assets/ilustrations/group_image.svg";
 import skills_image from "../../assets/ilustrations/skills_image.svg";
+import pexels_image from "../../assets/ilustrations/pexels_image.png";
 import CardComponent from "../../elements/card/card";
 import CardImgComponent from "../../elements/card/cardImg";
 
@@ -114,63 +115,65 @@ const HomePage = () => {
         </Row>
       </Row>
       {/* --- Level Section --- */}
-      <Row className="CardSection">
-        <Col className="CardBorder">
-          <CardComponent
-            className="CardL"
-            title="IPMA Level A"
-            subtitle="To possess this certification, you need to demonstrate that you possess the competences as described in the IPMA ICB4, continually and consistently applied these competences in a highly complex environment, taking full responsibility in a leading role."
-            BtnText="Learn more"
-          />
-          <div className="borderRight"></div>
-        </Col>
+      <Row>
+        <Row className="CardSection">
+          <Col className="CardBorder">
+            <CardComponent
+              className="CardL"
+              title="IPMA Level A"
+              subtitle="To possess this certification, you need to demonstrate that you possess the competences as described in the IPMA ICB4, continually and consistently applied these competences in a highly complex environment, taking full responsibility in a leading role."
+              BtnText="Learn more"
+            />
+            <div className="borderRight"></div>
+          </Col>
 
-        <Col>
-          <CardComponent
-            className="CardL"
-            title="IPMA Level B"
-            subtitle="IPMA level B certification is a confirmation of competences at a senior level in projects, programmes and portfolios management. Level B certificate holders have demonstrated the competences described by the IPMA International Competence Baseline®, "
-            BtnText="Learn more"
-          />
-        </Col>
-      </Row>
-      <Row className="CardSection">
-        <Col className="CardBorder">
-          <CardComponent
-            className="CardL"
-            title="IPMA Level C"
-            subtitle="IPMA level C Certification is a confirmation of experience level in managing projects. Level C certificate holders have demonstrated that they possess the competences as described by the IPMA International Competence Baseline®."
-            BtnText="Learn more"
-          />
-          <div className="borderRight"></div>
-        </Col>
-        <Col>
-          <CardComponent
-            className="CardL"
-            title="IPMA Level D"
-            subtitle="Achieving IPMA level D certification is a recognition of your knowledge about managing projects. To possess Level D certification, one needs to demonstrate the competences as described by the IPMA International Competence Baseline®."
-            BtnText="Learn more"
-          />
-        </Col>
-      </Row>
-      <Row className="CardSection">
-        <Col className="CardBorder">
-          <CardComponent
-            className="CardLast"
-            title="Not sure what level to apply for?"
-            subtitle="If you’re not sure what certification level to apply for, hit the button below to contact us so we can suggest an appropriate level based on your current work experience, knowledge level and overall competence."
-            BtnText="Contact Us"
-          />
-          <div className="borderRight"></div>
-        </Col>
-        <Col>
-          <CardComponent
-            className="CardLast"
-            title="Get recertified"
-            subtitle="Certified project managers may apply for re-certification procedure. The conditions of re-certification procedure are project management activities, continuing education and professional development, also acquirement of project management experience and skills."
-            BtnText="Learn more"
-          />
-        </Col>
+          <Col>
+            <CardComponent
+              className="CardL"
+              title="IPMA Level B"
+              subtitle="IPMA level B certification is a confirmation of competences at a senior level in projects, programmes and portfolios management. Level B certificate holders have demonstrated the competences described by the IPMA International Competence Baseline®, "
+              BtnText="Learn more"
+            />
+          </Col>
+        </Row>
+        <Row className="CardSection">
+          <Col className="CardBorder">
+            <CardComponent
+              className="CardL"
+              title="IPMA Level C"
+              subtitle="IPMA level C Certification is a confirmation of experience level in managing projects. Level C certificate holders have demonstrated that they possess the competences as described by the IPMA International Competence Baseline®."
+              BtnText="Learn more"
+            />
+            <div className="borderRight"></div>
+          </Col>
+          <Col>
+            <CardComponent
+              className="CardL"
+              title="IPMA Level D"
+              subtitle="Achieving IPMA level D certification is a recognition of your knowledge about managing projects. To possess Level D certification, one needs to demonstrate the competences as described by the IPMA International Competence Baseline®."
+              BtnText="Learn more"
+            />
+          </Col>
+        </Row>
+        <Row className="CardSection">
+          <Col className="CardBorder">
+            <CardComponent
+              className="CardLast"
+              title="Not sure what level to apply for?"
+              subtitle="If you’re not sure what certification level to apply for, hit the button below to contact us so we can suggest an appropriate level based on your current work experience, knowledge level and overall competence."
+              BtnText="Contact Us"
+            />
+            <div className="borderRight"></div>
+          </Col>
+          <Col>
+            <CardComponent
+              className="CardLast"
+              title="Get recertified"
+              subtitle="Certified project managers may apply for re-certification procedure. The conditions of re-certification procedure are project management activities, continuing education and professional development, also acquirement of project management experience and skills."
+              BtnText="Learn more"
+            />
+          </Col>
+        </Row>
       </Row>
       {/* --- BENEFITS CARD SECTION --- */}
       <Row id="benefitsHeader">
@@ -222,6 +225,21 @@ const HomePage = () => {
             title="Prove competence"
             subtitle="You are assessed against an international standard, and your achievement will be recognized on IPMA International’s website
 "
+          />
+        </Col>
+      </Row>
+      {/* --- ABOUT US SECTION--- */}
+      <Row>
+        <Col>
+          <Image fluid src={pexels_image} alt="pexels_image" />
+        </Col>
+        <Col>
+          <CardComponent
+            style={{ bordeBottom: "none" }}
+            className="CardL"
+            title="About Us - IPMA Ireland"
+            subtitle="The IPMA Ireland is the National Association for the administration of the IPMA® (International Project Management Association) four level certification system. There are at present in excess of 5000 certified IPMA® project professionals in Ireland. "
+            BtnText="Learn more"
           />
         </Col>
       </Row>
