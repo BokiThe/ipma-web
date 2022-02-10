@@ -20,6 +20,8 @@ import CardImgComponent from "../../elements/card/cardImg";
 import FaqComponent from "../../elements/faqComponent/faq";
 import CardBlogComponent from "../../elements/card/cardBlog";
 import { blogSections } from "../../objects/objects";
+
+
 const HomePage = () => {
   return (
     <Container fluid id="rootSection">
