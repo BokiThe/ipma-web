@@ -35,3 +35,20 @@
     align-self: center;
     width:100%;
 }
+.blogCard{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    height:100%;
+    padding-bottom: 30px;
+}
+
+.blogImg{
+    height:20%;
+}
+#blogLink{
+    text-decoration: none;
+    color:#ED3E3E;
+}

@@ -10,7 +10,7 @@
     font-size:28px;
     font-weight:700;
     line-height: 42px;
-    margin: 10px 0px;
+    margin: 10px 0px    ;
     font-style: medium;
 
 }
@@ -27,6 +27,9 @@
     line-height: 30px;
     margin: 10px 0px;
     font-style: normal;
+}
+.title-xs{
+    
 }
 .subtitle{
     font-size:16px;
