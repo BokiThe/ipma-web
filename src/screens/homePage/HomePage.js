@@ -15,12 +15,11 @@ import coin_image from "../../assets/ilustrations/coin_image.svg";
 import group_image from "../../assets/ilustrations/group_image.svg";
 import skills_image from "../../assets/ilustrations/skills_image.svg";
 import pexels_image from "../../assets/ilustrations/pexels_image.png";
-import blog_image from "../../assets/ilustrations/blog_image.svg";
 import CardComponent from "../../elements/card/card";
 import CardImgComponent from "../../elements/card/cardImg";
 import FaqComponent from "../../elements/faqComponent/faq";
 import CardBlogComponent from "../../elements/card/cardBlog";
-
+import { blogSections } from "../../objects/objects";
 const HomePage = () => {
   return (
     <Container fluid id="rootSection">
@@ -277,50 +276,21 @@ We’ve got you covered."
       </Row>
       {/* --- BLOG CARDS SECTION --- */}
       <Row>
-        <Col>
-          <CardBlogComponent
-            className="blogCard"
-            imgClass="blogImg"
-            src={blog_image}
-            title="Creative project management and practices for 2021"
-            href="#"
-            linkId="blogLink"
-            linkText="Read more >>"
-          />
-        </Col>
-        <Col>
-          <CardBlogComponent
-            className="blogCard"
-            imgClass="blogImg"
-            src={blog_image}
-            title="Creative project management and practices for 2021"
-            href="#"
-            linkId="blogLink"
-            linkText="Read more >>"
-          />
-        </Col>
-        <Col>
-          <CardBlogComponent
-            className="blogCard"
-            imgClass="blogImg"
-            src={blog_image}
-            title="Creative project management and practices for 2021"
-            href="#"
-            linkId="blogLink"
-            linkText="Read more >>"
-          />
-        </Col>
-        <Col>
-          <CardBlogComponent
-            className="blogCard"
-            imgClass="blogImg"
-            src={blog_image}
-            title="Creative project management and practices for 2021"
-            href="#"
-            linkId="blogLink"
-            linkText="Read more >>"
-          />
-        </Col>
+        {blogSections.map((blog, index) => {
+          return (
+            <Col key={index}>
+              <CardBlogComponent
+                className={blog.className}
+                imgClass={blog.imgClass}
+                src={blog.src}
+                title={blog.title}
+                href={blog.href}
+                linkId={blog.linkId}
+                linkText={blog.linkText}
+              />
+            </Col>
+          );
+        })}
       </Row>
     </Container>
   );

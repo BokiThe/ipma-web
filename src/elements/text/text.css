@@ -51,6 +51,13 @@
     width: 100%;
     overflow-wrap: break-word;
 }
-
+.subtitle-s{
+    font-size:12px;
+    line-height:18px;
+    margin: 10px 0px; 
+    font-style: normal;
+    width: 100%;
+    overflow-wrap: break-word;
+}
 
 

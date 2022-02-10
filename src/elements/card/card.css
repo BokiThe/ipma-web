@@ -54,3 +54,23 @@
     color:#ED3E3E;
     margin-top: 10px;
 }
+
+.contactBox{
+    display: flex;
+    flex:1;
+    flex-direction:row;
+    justify-content: start;
+    align-items:center;
+}
+
+.titleBorder{
+    width:40%;
+    height:1px;
+    background:#CDD0D2;
+}
+
+.filler{
+    width:30%;
+    height:1px;
+    background:#04151F;
+}
