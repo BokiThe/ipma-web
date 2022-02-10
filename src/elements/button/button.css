@@ -3,12 +3,27 @@
     border-radius: 8px;
     color:#ED3E3E;
     background:white;
-    width: 40%;
+    width: 224px;
     padding: 10px 10px;
     margin: 30px 10px;
     font-size: 16px;
 }
 .btnLarge:hover{
+    background: #ED3E3E;
+    border-radius: 8px;
+    color:white;
+}
+.btnCard {
+    border: 1.25px solid #ED3E3E;
+    border-radius: 8px;
+    color:#ED3E3E;
+    background:white;
+    width: 224px;
+    padding: 10px 10px;
+    margin: 40px 0px 20px 0px;
+    font-size: 16px;
+}
+.btnCard:hover{
     background: #ED3E3E;
     border-radius: 8px;
     color:white;

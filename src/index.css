@@ -20,5 +20,6 @@ code {
 }
 .row{
   margin: 70px 0;
-  flex-wrap: wrap;
+
+  width:100%;
 }

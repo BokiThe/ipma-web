@@ -5,10 +5,10 @@ import "./card.css";
 
 const CardComponent = (props) => {
   return (
-    <div className={props.className}>
+    <div id={props.id} className={props.className}>
       <TextComponent className="title-l" text={props.title} />
       <TextComponent className="subtitle cardSubtitle" text={props.subtitle} />
-      <Button className="btnLarge" text={props.BtnText} />
+      <Button className="btnCard" text={props.BtnText} />
     </div>
   );
 };

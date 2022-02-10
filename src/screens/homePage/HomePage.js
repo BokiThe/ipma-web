@@ -23,7 +23,7 @@ const HomePage = () => {
     <Container fluid id="rootSection">
       {/* --- HEADER SECTION --- */}
       <Row id="headerSection">
-        <Col id="headerText" className="col-5">
+        <Col id="headerText" className="m-l-1">
           <TextComponent
             className="title-xl"
             text="Get certified by the official project management body"
@@ -37,19 +37,19 @@ const HomePage = () => {
           <Row>
             <Button className="btnLarge" text="Explore certifications" />
             <Button className="btnLarge" text="Help me choose" />
+            <span id="scrollDown" onClick={() => console.log("skrollDown")}>
+              Scroll down <Image fluid src={vector_icon}></Image>
+            </span>
           </Row>
-          <span id="scrollDown" onClick={() => console.log("skrollDown")}>
-            Scroll down <Image fluid src={vector_icon}></Image>
-          </span>
         </Col>
 
-        <Col className="col-5">
+        <Col style={{ textAlign: "right" }} className="col-5">
           <Image fluid src={header_image} alt="header_image" />
         </Col>
       </Row>
       {/* --- GET TO KNOW US MORE --- */}
-      <Row>
-        <Col>
+      <Row style={{ width: "100%", justifyContent: "space-between" }}>
+        <Col className="col-5 p-0">
           <TextComponent className="title-l" text="Get to know us more" />
           <TextComponent
             className="subtitle"
@@ -57,7 +57,7 @@ const HomePage = () => {
 "
           />
         </Col>
-        <Col>
+        <Col className="col-5 p-0">
           <Row className="justify-content-end">
             <Col className="col-3 text-center">
               <TextComponent className="title-xl" text="30+" />
@@ -67,13 +67,17 @@ const HomePage = () => {
               <TextComponent className="title-xl" text="10k+" />
               <TextComponent className="subtitle" text="Certified members" />
             </Col>
+            <Col className="col-3 text-center">
+              <TextComponent className="title-xl" text="28k+" />
+              <TextComponent className="subtitle" text="Re-Certified" />
+            </Col>
           </Row>
         </Col>
       </Row>
       {/* --- BENEFITS SECTION --- */}
       <Row>
         <Col>
-          <Image fluid src={benefits_image} alt="benefits_image" />
+          <Image src={benefits_image} alt="benefits_image" />
         </Col>
         <Col>
           <TextComponent
@@ -229,19 +233,24 @@ const HomePage = () => {
         </Col>
       </Row>
       {/* --- ABOUT US SECTION--- */}
-      <Row>
+      <Row id="aboutSection">
         <Col>
-          <Image fluid src={pexels_image} alt="pexels_image" />
+          <Image src={pexels_image} alt="pexels_image" />
         </Col>
         <Col>
           <CardComponent
-            style={{ bordeBottom: "none" }}
+            id="cardAboutUs"
             className="CardL"
             title="About Us - IPMA Ireland"
             subtitle="The IPMA Ireland is the National Association for the administration of the IPMA® (International Project Management Association) four level certification system. There are at present in excess of 5000 certified IPMA® project professionals in Ireland. "
             BtnText="Learn more"
           />
         </Col>
+      </Row>
+      {/* --- FAQs SECTION --- */}
+      <Row>
+        <Col></Col>
+        <Col></Col>
       </Row>
     </Container>
   );

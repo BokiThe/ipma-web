@@ -5,17 +5,17 @@
     align-items: center;
     padding: 20px 50px;
     width: 100%;
+    height:100Vh;
     
 
 }
 /* HEADER SECTION */
 #headerSection{
+    display: flex;
+    flex:1;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap-reverse;
-    height:100vh;
-    margin: 30px 0;
     
 }
 #headerText{
@@ -23,6 +23,8 @@
     flex-direction: column;
     flex: 1;
 }
+
+
 
 #scrollDown{
     display: inline-block;
@@ -60,6 +62,7 @@
 #projectMngSection{
     text-align:center;
     width:70%;
+    align-self: center;
 }
 /* LEVEL SECTION */
 .CardSection{
@@ -89,6 +92,7 @@
     flex:1;
     justify-content: space-between;
     align-items:center;
+    width:100%;
 
 }
 .borderRight1{
@@ -101,3 +105,12 @@
     background-color:#ED3E3E
 }
 
+/* ABOUT SECTION */
+#aboutSection{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items:center;
+    justify-content:flex-start;
+    width:100%;
+}
