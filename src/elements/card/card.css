@@ -46,9 +46,11 @@
 }
 
 .blogImg{
-    height:20%;
+   display: inline-block;
+   margin-bottom: 10px;
 }
 #blogLink{
     text-decoration: none;
     color:#ED3E3E;
+    margin-top: 10px;
 }

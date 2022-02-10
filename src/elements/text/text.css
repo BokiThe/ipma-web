@@ -4,6 +4,7 @@
     line-height: 54px;
     margin: 10px 0px;
     font-style: medium;
+    overflow-wrap: break-word;
 
 }
 .title-l{
@@ -12,6 +13,8 @@
     line-height: 42px;
     margin: 10px 0px    ;
     font-style: medium;
+    overflow-wrap: break-word;
+    
 
 }
 .title-m{
@@ -20,6 +23,8 @@
     line-height: 36px;
     margin: 10px 0px;
     font-style: medium;
+    overflow-wrap: break-word;
+   
 }
 .title-s{
     font-size:20px;
@@ -27,15 +32,24 @@
     line-height: 30px;
     margin: 10px 0px;
     font-style: normal;
+    overflow-wrap: break-word;
+    
 }
 .title-xs{
-    
+    font-weight: 700;
+    font-size:16px;
+    line-height:24px; 
+    font-style: medium;
+    width: 100%;
+    overflow-wrap: break-word;
 }
 .subtitle{
     font-size:16px;
     line-height:20px;
     margin: 10px 0px; 
     font-style: normal;
+    width: 100%;
+    overflow-wrap: break-word;
 }
 
 
