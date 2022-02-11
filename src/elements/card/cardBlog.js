@@ -6,9 +6,16 @@ import "./card.css";
 const CardBlogComponent = (props) => {
   return (
     <div className={props.className}>
-      <Image fluid className={props.imgClass} src={props.src} alt={props.alt} />
+      <div>
+        <Image
+          fluid
+          className={props.imgClass}
+          src={props.src}
+          alt={props.alt}
+        />
+      </div>
       <TextComponent className="title-xs " text={props.title} />
-      <a href={props.href} id={props.linkId}>
+      <a href={props.href} className={props.linkClass}>
         {props.linkText}
       </a>
     </div>

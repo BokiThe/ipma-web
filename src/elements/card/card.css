@@ -49,17 +49,21 @@
    display: inline-block;
    margin-bottom: 10px;
 }
-#blogLink{
+.blogLink{
     text-decoration: none;
     color:#ED3E3E;
     margin-top: 10px;
+}
+.blogLink:hover{
+    color:#04151F;
+
 }
 
 .contactBox{
     display: flex;
     flex:1;
     flex-direction:row;
-    justify-content: start;
+    justify-content: left;
     align-items:center;
 }
 
@@ -73,4 +77,40 @@
     width:30%;
     height:1px;
     background:#04151F;
+}
+#subscribeForm{
+    width:100%;
+}
+#subscribeForm input[type="e-mail"]{
+    text-align:left;
+    width:60%;
+    padding: 10px 10px;
+    margin: 30px 0px;
+    border: 1px solid #04151F e;
+    border-radius: 8px;
+
+}
+input[type="e-mail"]:focus{
+    box-sizing:none;
+    border: 1px solid #ED3E3E;
+    box-shadow: none;
+
+}
+
+#subscribeForm input[type="e-mail"]::placeholder{
+    padding:20px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    opacity:40%;
+    font-style: normal;
+    font-family: inherit;
+    text-align:left;
+    color:#04151F;
+}
+
+.socialIcons{
+    display: inline-block;
+    width:20%;
+    padding:20px;
+
 }

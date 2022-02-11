@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
     width: 100%;
     
 
@@ -55,6 +54,9 @@
     flex:1;
     flex-direction:row;
     margin: 10px 0;
+}
+#avatarText{
+    padding-left:10px;
 }
 
 /* PROJECT MENAGEMENT CERTIFICATION */

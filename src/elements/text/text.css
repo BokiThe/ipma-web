@@ -3,15 +3,18 @@
     font-weight:700;
     line-height: 54px;
     margin: 10px 0px;
+    color:#04151F;
     font-style: medium;
     overflow-wrap: break-word;
+    
 
 }
 .title-l{
     font-size:28px;
     font-weight:700;
     line-height: 42px;
-    margin: 10px 0px    ;
+    margin: 10px 0px;
+    color:#04151F;
     font-style: medium;
     overflow-wrap: break-word;
     
@@ -22,6 +25,7 @@
     font-weight:700;
     line-height: 36px;
     margin: 10px 0px;
+    color:#04151F;
     font-style: medium;
     overflow-wrap: break-word;
    
@@ -30,6 +34,7 @@
     font-size:20px;
     font-weight:700;
     line-height: 30px;
+    color:#04151F;
     margin: 10px 0px;
     font-style: normal;
     overflow-wrap: break-word;
@@ -40,6 +45,7 @@
     font-size:16px;
     line-height:24px; 
     font-style: medium;
+    color:#04151F;
     width: 100%;
     overflow-wrap: break-word;
 }
@@ -48,16 +54,31 @@
     line-height:20px;
     margin: 10px 0px; 
     font-style: normal;
+    color:#04151F;
     width: 100%;
     overflow-wrap: break-word;
+    opacity: 70%;
 }
 .subtitle-s{
     font-size:12px;
     line-height:18px;
     margin: 10px 0px; 
     font-style: normal;
+    color:#04151F;
     width: 100%;
     overflow-wrap: break-word;
+    opacity: 70%;
+}
+.cardLink{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #04151F;
+    opacity: 70%;
 }
 
-
+.cardLink:hover{
+    color:#ED3E3E;
+}
