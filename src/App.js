@@ -3,6 +3,7 @@ import HomePage from "./screens/homePage/HomePage";
 import Footer from "./screens/footer/footer";
 import NavBar from "./screens/navigation/navigation";
 
+
 function App() {
   return (
     <div>

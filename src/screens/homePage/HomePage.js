@@ -21,7 +21,6 @@ import FaqComponent from "../../elements/faqComponent/faq";
 import CardBlogComponent from "../../elements/card/cardBlog";
 import { blogSections } from "../../objects/objects";
 
-
 const HomePage = () => {
   return (
     <Container fluid id="rootSection">
@@ -269,10 +268,10 @@ We’ve got you covered."
 
       {/* --- LATEST FROM OUR BLOG --- */}
       <Row style={{ width: "100%", justifyContent: "space-between" }}>
-        <Col className="col-5">
+        <Col>
           <TextComponent className="title-l" text="Latest from our blog" />
         </Col>
-        <Col className="col-3">
+        <Col style={{ textAlign: "end" }}>
           <Button className="btnLarge" text="More posts" />
         </Col>
       </Row>
