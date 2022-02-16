@@ -13,7 +13,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <Container fluid className="align-items-center">
+    <Container fluid className="p-5">
       <Row>
         <Col className="col-3">
           <CardContactComponent

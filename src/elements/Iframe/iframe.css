@@ -1,0 +1,5 @@
+.iframeWraper {
+    overflow: hidden;
+    border-radius: 8px;
+    transform: translateZ(0px);
+  }

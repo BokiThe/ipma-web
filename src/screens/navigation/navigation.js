@@ -12,7 +12,7 @@ import "../homePage/HomePage.css";
 
 const NavBar = () => {
   return (
-    <Container fluid className="mt-3">
+    <Container fluid className="p-5">
       <Row style={{ margin: "0", marginBottom: "25px" }}>
         <Col>
           <Link
