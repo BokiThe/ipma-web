@@ -21,13 +21,15 @@ const NavBar = () => {
           />
         </Col>
         <Col style={{ textAlign: "end" }}>
-          <span style={{ padding: "5px", borderRight: "1px solid #04151F" }}>
+          <span
+            style={{ padding: "5px 15px", borderRight: "1px solid #04151F" }}
+          >
             <Link
               href="#"
               linkText={[<Image src={phone_nav_icon} alt="phone_nav_icon" />]}
             />
           </span>
-          <span style={{ margin: "5px" }}>
+          <span style={{ padding: "5px 15px" }}>
             <Link
               href="#"
               linkText={[<Image src={mail_nav_icon} alt="mail_nav_icon" />]}

@@ -1,0 +1,12 @@
+.LevelHeader{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+    height: 444px;
+    padding: 0px 200px;
+    text-align: center;
+    background: url("../../assets/ilustrations/levelBG_image.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
