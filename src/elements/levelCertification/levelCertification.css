@@ -19,3 +19,53 @@
     padding: 0 10%;
 
 }
+.LevelForm{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+
+.LevelInput{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #04151F;
+}
+.LevelInput::placeholder{
+    font-size: 16px;
+    line-height: 24px;
+    opacity:40%;
+    font-style: normal;
+    font-family: inherit;
+    text-align:left;
+    color:#04151F;
+}
+#uploadFile{
+    display:none;
+}
+.costumUpload{
+    text-align:center;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='16' ry='16' stroke='black' stroke-width='3' stroke-dasharray='80%2c40' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+border-radius: 16px;
+    padding: 20% 0;
+    
+
+}
+.LevelSubmit {
+    display:inline-block;
+    border: 1.25px solid #ED3E3E;
+    border-radius: 8px;
+    background: #ED3E3E;
+    color:white;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.LevelSubmit:hover{
+    
+    border-radius: 8px;
+    color:#ED3E3E;
+    background:white;
+}
+

@@ -2,7 +2,6 @@ import React from "react";
 import document_icon from "../../assets/icons/document_icon.svg";
 import "../text/text.css";
 import "./levelCertification.css";
-import TextComponent from "../text/text";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 const LevelDownload = (props) => {
@@ -13,7 +12,8 @@ const LevelDownload = (props) => {
           <span style={{ marginRight: "13px" }}>
             <img src={document_icon} alt="document_icon" />
           </span>{" "}
-          {props.dwldText} <span style={{ color: "#ED3E3E" }}>***</span>{" "}
+          {props.dwldText}{" "}
+          <span style={{ color: "#ED3E3E" }}>{props.marked ? "***" : ""}</span>{" "}
         </p>
       </Col>
       <Col className="text-end p-0 m-0">
