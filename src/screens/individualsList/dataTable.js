@@ -2,6 +2,7 @@ import React from "react";
 import DataTable from "react-data-table-component";
 import { TableDatas } from "../../objects/objects";
 import SubHeader from "./subHeader";
+import CostumPagination from "../../elements/costumPagination/costumPagination";
 
 import "./individualsList.css";
 
@@ -45,13 +46,6 @@ const TableData = () => {
   );
 
   const subHeaderComponentMemo = React.useMemo(() => {
-    const handleClear = () => {
-      if (filterText) {
-        setResetPaginationToggle(!resetPaginationToggle);
-        setFilterText("");
-      }
-    };
-
     return (
       <SubHeader
         onFilter={(e) => setFilterText(e.target.value)}
@@ -64,6 +58,7 @@ const TableData = () => {
       columns={columns}
       data={filterData}
       pagination
+      paginationComponent={CostumPagination}
       subHeader
       subHeaderComponent={subHeaderComponentMemo}
       paginationPerPage={20}

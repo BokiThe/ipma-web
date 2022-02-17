@@ -1,4 +1,41 @@
 .rdt_Table {
     padding: 0 10%;
 }
+.filterContainer{
+    display:flex;
+    flex-direction:row;
+    flex: 1;
+    width: 100%;
+    justify-content: end;
+    padding: 0 10%;
+}
 
+#FilterByName{
+    width:30%;
+    background-image: url('../../assets/icons/magnifyingGlass_icon.svg');
+    background-size:14px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    text-indent: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #04151F;
+    border-radius: 8px;
+    margin:30px 0;
+}
+
+.btnFilter {
+    border: 1.25px solid #ED3E3E;
+    border-radius: 8px;
+    color:white;
+    background:#ED3E3E;
+    width: 224px;
+    padding: 10px 10px;
+    margin: 30px 10px;
+    font-size: 16px;
+}
+.btnFilter:hover{
+    background: white;
+    color:#ED3E3E;
+}
