@@ -1,6 +1,6 @@
 import React from "react";
 import Faq from "react-faq-component";
-import LevelCertification from "./levelCertification";
+import  "./levelCertification.css";
 
 
 const LevelFaq = (props) => {

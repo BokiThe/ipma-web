@@ -42,7 +42,7 @@ export const blogSections = [
   },
 ];
 
-const levelCrtificaationA = [
+export const levelCrtificaationA = [
   {
     title: (
       <Row>
@@ -61,7 +61,7 @@ const levelCrtificaationA = [
   },
 ];
 
-const contentA = [
+export const contentA = [
   {
     1: (
       <Row>
@@ -75,6 +75,377 @@ const contentA = [
           />
         </Col>
       </Row>
+    ),
+  },
+];
+
+export const TableDatas = [
+  {
+    id: 1,
+    certificate: "IPMA-D-2015-8019",
+    surname: "Ristic",
+    firstName: "Bojan",
+    location: "Serbia",
+    salutation: "IPMA-D-2015-9012",
+    postcode: "18000",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 2,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 3,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 4,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 5,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 6,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 7,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 8,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 9,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 10,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 11,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 12,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 13,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 14,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 15,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 16,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 17,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 18,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 19,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 20,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 21,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 22,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
+    ),
+  },
+  {
+    id: 23,
+    certificate: "IPMA-D-2015-8019",
+    surname: "A.Marca",
+    firstName: "Fabian",
+    location: "Regensdorf",
+    salutation: "IPMA-D-2015-8019",
+    postcode: "102262",
+    certificationDate: new Date(2015, 9, 3),
+    certificationStatus: true,
+    detail: (
+      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
+        See details {">>"}
+      </a>
     ),
   },
 ];
