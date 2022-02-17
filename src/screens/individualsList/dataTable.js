@@ -1,6 +1,6 @@
 import React from "react";
 import DataTable from "react-data-table-component";
-import { TableDatas } from "../../objects/objects";
+
 import SubHeader from "./subHeader";
 import CostumPagination from "../../elements/costumPagination/costumPagination";
 
@@ -33,12 +33,10 @@ const columns = [
   },
 ];
 
-const data = TableDatas;
-
-const TableData = () => {
+const TableData = (props) => {
+  const data = props.data;
   const [filterText, setFilterText] = React.useState("");
-  const [resetPaginationToggle, setResetPaginationToggle] =
-    React.useState(false);
+
   const filterData = data.filter(
     (item) =>
       item.firstName &&
@@ -52,7 +50,7 @@ const TableData = () => {
         filterText={filterText}
       />
     );
-  }, [filterText, resetPaginationToggle]);
+  }, [filterText]);
   return (
     <DataTable
       columns={columns}
@@ -62,7 +60,6 @@ const TableData = () => {
       subHeader
       subHeaderComponent={subHeaderComponentMemo}
       paginationPerPage={20}
-      paginationResetDefaultPage={resetPaginationToggle}
       paginationComponentOptions={{
         rangeSeparatorText: "of",
         RowsPerPage: 20,

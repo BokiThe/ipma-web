@@ -11,9 +11,9 @@
 }
 
 #FilterByName{
-    width:30%;
+    width:60%;
     background-image: url('../../assets/icons/magnifyingGlass_icon.svg');
-    background-size:14px;
+    background-size:10px;
     background-position: left;
     background-repeat: no-repeat;
     background-position-x: 10px;
@@ -25,12 +25,17 @@
     margin:30px 0;
 }
 
+#FilterByName::placeholder{
+    text-align: left;
+    opacity: 40%;
+}
+
 .btnFilter {
     border: 1.25px solid #ED3E3E;
     border-radius: 8px;
     color:white;
     background:#ED3E3E;
-    width: 224px;
+    width: 20%;
     padding: 10px 10px;
     margin: 30px 10px;
     font-size: 16px;

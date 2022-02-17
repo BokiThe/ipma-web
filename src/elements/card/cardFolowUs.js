@@ -17,7 +17,7 @@ const CardFolowUs = (props) => {
         <div className="filler"></div>
       </div>
 
-      <Row className="mt-3">
+      <Row className="mt-3 mb-3">
         <Link
           className="socialIcons"
           href={props.iconHrefFB}

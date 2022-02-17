@@ -1,14 +1,10 @@
 import React from "react";
-import magnifyingGlass_icon from "../../assets/icons/magnifyingGlass_icon.svg";
 import download_icon from "../../assets/icons/download_icon.svg";
 import filter_icon from "../../assets/icons/filter_icon.svg";
 import "./individualsList.css";
 import Button from "../../elements/button/button";
 
 const SubHeader = ({ filterText, onFilter }) => {
-  const magnifyingGlass = (
-    <img src={magnifyingGlass_icon} alt="magnifyingGlass_icon" />
-  );
   return (
     <div className="filterContainer">
       <input

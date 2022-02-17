@@ -23,7 +23,7 @@ import { blogSections } from "../../objects/objects";
 
 const HomePage = () => {
   return (
-    <Container fluid id="rootSection">
+    <Container fluid id="rootSection" className="p-5">
       {/* --- HEADER SECTION --- */}
       <Row id="headerSection">
         <Col id="headerText" className="m-l-1">

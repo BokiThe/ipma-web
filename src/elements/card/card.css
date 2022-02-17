@@ -86,14 +86,8 @@
     width:60%;
     padding: 10px 10px;
     margin: 30px 0px;
-    border: 1px solid #04151F e;
+    border: 1px solid #04151F;
     border-radius: 8px;
-
-}
-input[type="e-mail"]:focus{
-    box-sizing:none;
-    border: 1px solid #ED3E3E;
-    box-shadow: none;
 
 }
 
@@ -109,8 +103,10 @@ input[type="e-mail"]:focus{
 }
 
 .socialIcons{
-    display: inline-block;
-    width:20%;
-    padding:20px;
+    display: inline;
+    width:36px;
+    margin: 3px;
+    align-items: center;
 
 }
+

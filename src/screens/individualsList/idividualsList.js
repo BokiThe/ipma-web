@@ -1,6 +1,7 @@
 import React from "react";
 import TableData from "./dataTable";
 import LevelHeader from "../../elements/levelCertification/levelHeader";
+import { TableDatas } from "../../objects/objects";
 
 const IndividualList = () => {
   return (
@@ -11,7 +12,7 @@ const IndividualList = () => {
         href="#"
       />
 
-      <TableData />
+      <TableData data={TableDatas} />
     </>
   );
 };
