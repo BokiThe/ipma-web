@@ -4,7 +4,7 @@ import filter_icon from "../../assets/icons/filter_icon.svg";
 import "./individualsList.css";
 import Button from "../../elements/button/button";
 
-const SubHeader = ({ filterText, onFilter }) => {
+const SubHeader = ({ filterText, onFilter, onExport }) => {
   return (
     <div className="filterContainer">
       <input
@@ -17,15 +17,21 @@ const SubHeader = ({ filterText, onFilter }) => {
       />
       <Button
         className="btnFilter"
+        onClick={(e) => onExport(e.target.value)}
         text={[
           "Download",
           <img
-            style={{ paddingLeft: "15px", color: "black", alignSelf: "center" }}
+            style={{
+              paddingLeft: "15px",
+              color: "black",
+              alignSelf: "center",
+            }}
             src={download_icon}
             alt="download_icon"
           />,
         ]}
       />
+
       <Button
         className="btnFilter"
         text={[

@@ -90,11 +90,7 @@ export const TableDatas = [
     postcode: "18000",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 2,
@@ -106,11 +102,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 3,
@@ -122,11 +114,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 4,
@@ -138,11 +126,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 5,
@@ -154,11 +138,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 6,
@@ -170,11 +150,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 7,
@@ -186,11 +162,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 8,
@@ -202,11 +174,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 9,
@@ -218,11 +186,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 10,
@@ -234,11 +198,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 11,
@@ -250,11 +210,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 12,
@@ -266,11 +222,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 13,
@@ -282,11 +234,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 14,
@@ -298,11 +246,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 15,
@@ -314,11 +258,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 16,
@@ -330,11 +270,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 17,
@@ -346,11 +282,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 18,
@@ -362,11 +294,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 19,
@@ -378,11 +306,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 20,
@@ -394,11 +318,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 21,
@@ -410,11 +330,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 22,
@@ -426,11 +342,7 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
   {
     id: 23,
@@ -442,10 +354,6 @@ export const TableDatas = [
     postcode: "102262",
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
-    detail: (
-      <a style={{ color: "#ED3E3E", textDecoration: "none" }} href="#">
-        See details {">>"}
-      </a>
-    ),
+    detail: "",
   },
 ];
