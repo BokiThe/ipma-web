@@ -15,9 +15,10 @@ const SubHeader = ({ filterText, onFilter, onExport }) => {
         value={filterText}
         onChange={onFilter}
       />
+
       <Button
         className="btnFilter"
-        onClick={(e) => onExport(e.target.value)}
+        onClick={onExport}
         text={[
           "Download",
           <img

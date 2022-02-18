@@ -9,7 +9,13 @@
     justify-content: end;
     padding: 0 10%;
 }
-
+.modal-dialog{
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+}
 #FilterByName{
     width:60%;
     background-image: url('../../assets/icons/magnifyingGlass_icon.svg');

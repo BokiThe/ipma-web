@@ -1,5 +1,5 @@
 import React from "react";
-import DataTable from "react-data-table-component";
+import DataTable, { Export } from "react-data-table-component";
 import ModalShow from "./modalShow";
 import SubHeader from "./subHeader";
 import CostumPagination from "../../elements/costumPagination/costumPagination";
@@ -78,6 +78,7 @@ const TableData = (props) => {
     link.setAttribute("download", filename);
     link.click();
   };
+
   const [filterText, setFilterText] = React.useState("");
 
   const filterData = data.filter(
@@ -89,12 +90,13 @@ const TableData = (props) => {
   const subHeaderComponentMemo = React.useMemo(() => {
     return (
       <SubHeader
+        onExport={() => downloadCSV(filterData)}
         onFilter={(e) => setFilterText(e.target.value)}
         filterText={filterText}
-        onExport={() => downloadCSV(props.data)}
       />
-    ); //TODO:: solution for downloading files
+    );
   }, [filterText]);
+
   return (
     <DataTable
       columns={columns}
