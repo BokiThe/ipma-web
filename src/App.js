@@ -5,12 +5,14 @@ import NavBar from "./screens/navigation/navigation";
 import LevelCertification from "./elements/levelCertification/levelCertification";
 import IndividualList from "./screens/individualsList/idividualsList";
 import LevelCertificationA from "./screens/levelACertification/levelCertificationA";
+import LevelCertificationB from "./screens/levelBCertification/levelCertificationB";
 function App() {
   return (
     <div>
       <NavBar />
       {/* <HomePage /> */}
-      <LevelCertificationA />
+      {/* <LevelCertificationA /> */}
+      <LevelCertificationB />
       {/* <IndividualList /> */}
       <Footer />
     </div>
