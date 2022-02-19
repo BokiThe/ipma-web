@@ -4,14 +4,14 @@ import Footer from "./screens/footer/footer";
 import NavBar from "./screens/navigation/navigation";
 import LevelCertification from "./elements/levelCertification/levelCertification";
 import IndividualList from "./screens/individualsList/idividualsList";
-
+import LevelCertificationA from "./screens/levelACertification/levelCertificationA";
 function App() {
   return (
     <div>
       <NavBar />
       {/* <HomePage /> */}
-      {/* <LevelCertification /> */}
-      <IndividualList />
+      <LevelCertificationA />
+      {/* <IndividualList /> */}
       <Footer />
     </div>
   );

@@ -2,14 +2,14 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import LevelHeader from "./levelHeader";
-import LevelInfo from "./levelInfo";
-import TextComponent from "../text/text";
-import Iframe from "../Iframe/iframe";
-import LevelDownload from "./levelDownload";
-import LevelForm from "./levelForm";
-import LevelVerticalTimeline from "./levelTimeLine";
-const LevelCertification = () => {
+import LevelHeader from "../../elements/levelCertification/levelHeader";
+import LevelInfo from "../../elements/levelCertification/levelInfo";
+import TextComponent from "../../elements/text/text";
+import Iframe from "../../elements/Iframe/iframe";
+import LevelDownload from "../../elements/levelCertification/levelDownload";
+import LevelForm from "../../elements/levelCertification/levelForm";
+import LevelVerticalTimeline from "../../elements/levelCertification/levelTimeLine";
+const LevelCertificationA = () => {
   return (
     <Container fluid style={{ width: "100vw" }}>
       <Row className="m-0 mb-5">
@@ -36,7 +36,24 @@ const LevelCertification = () => {
       </Row>
       {/* VERTICAL TIME LINE */}
       <LevelInfo title="Steps to get certified" className="LevelInfo" />
-      <LevelVerticalTimeline />
+      <LevelVerticalTimeline
+        step1Text="Application to obtain the certificate"
+        step11Text="Express your interest by email or complete the booking form online."
+        step12Text="Prepare and submit a comprehensive CV for initial certification.
+        "
+        step13Text="CV is checked by an assessor to indicate, without any guarantees, if the level sought is attainable. "
+        step14Text="If assessor’s feedback is positive, an invoice is issued."
+        step15Text="The fees need to be paid before receiving the Certification documentation
+        "
+        step16Text="Complete and submit the Executive Summary Report by using any of our pre-designed templates. Check them out here.
+        "
+        step17Text="Fill in and submit the Self-Assessment and Application form including the referees
+        "
+        step18Text="Wait for your executive summary report to be assessed and the final approval decision for certification
+        "
+        step2Text="Full report preparation and submission"
+        step3Text="Interview process"
+      />
 
       {/* LEVEL COST */}
       <Row>
@@ -95,4 +112,4 @@ const LevelCertification = () => {
   );
 };
 
-export default LevelCertification;
+export default LevelCertificationA;

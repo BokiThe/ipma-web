@@ -1,7 +1,7 @@
 import React from "react";
 import TextComponent from "../text/text";
 import Link from "../text/link";
-import vector_icon from "../../assets/icons/vector_icon.svg";
+import vectorRedDown_icon from "../../assets/icons/vectorRedDown_icon.svg";
 import "./levelCertification.css";
 const LevelHeader = (props) => {
   return (
@@ -11,7 +11,7 @@ const LevelHeader = (props) => {
       <Link
         className="cardLink"
         href={props.href}
-        linkText={[<img src={vector_icon} alt="vector_icon" />]}
+        linkText={[<img src={vectorRedDown_icon} alt="vector_icon" />]}
       />
     </div>
   );

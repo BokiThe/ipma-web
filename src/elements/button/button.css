@@ -43,4 +43,8 @@
     border-radius: 8px;
     color:white;
 }
-
+.btnTimeLine{
+    border: none;
+    background:transparent;
+    color:#ED3E3E;
+}

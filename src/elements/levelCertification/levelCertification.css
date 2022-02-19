@@ -69,3 +69,19 @@ border-radius: 16px;
     background:white;
 }
 
+.vertical-timeline::before {
+    background: #04151F !important;
+    opacity: 0.1 !important;
+}
+.vertical-timeline{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
