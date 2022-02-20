@@ -10,14 +10,15 @@ import LevelDownload from "../../elements/levelCertification/levelDownload";
 import LevelForm from "../../elements/levelCertification/levelForm";
 import LevelVerticalTimeline from "../../elements/levelCertification/levelTimeLine";
 import videoExplanation_image from "../../assets/ilustrations/videoExplanation_image.svg";
-const LevelCertificationC = () => {
+import Link from "../../elements/text/link";
+const ReCertificationD = () => {
   return (
     <Container fluid style={{ width: "100vw" }}>
       {/* --- HEADER --- */}
       <Row className="m-0 mb-5">
         <LevelHeader
-          title="IPMA Level C certification"
-          subtitle="Level C certification proves that the holder is able to manage projects with moderate complexity and that they possess the competences as described by the IPMA International Competence Baseline®"
+          title="Re-certification for level D"
+          subtitle="Certified project managers (certificate holders) of all levels must apply for and pass the re-certification process after the specfied number of years to retain their certification."
           href="#"
         />
       </Row>
@@ -25,12 +26,12 @@ const LevelCertificationC = () => {
       <Row>
         <LevelInfo
           className="LevelInfo"
-          title="Level info and certification criteria"
+          title="Criteria for re-certification"
           subtitle={[
             <Col className="p-0">
               <TextComponent
                 className="subtitle"
-                text="An IPMA Level C certification requires that the candidate has acted in a project management role within a moderately complex project environment within an organisation. Eligibility criteria include that within the last six years the candidate needs to have a minimum of three years’ experience as a project manager within projects of moderate complexity, or a minimum of three years’ experience in a responsible project management role assisting the project manager in complex projects."
+                text="With a recertification you extend the validity of your certificate for another 5 years. By doing so in the last 5 years, you prove that you have gained sufficient practical experience in the management of projects, programmes and/or portfolios to maintain your competence in these areas and that you have attended a sufficient number of further training activities to keep your relevant expertise up-to-date."
               />
             </Col>,
           ]}
@@ -43,38 +44,43 @@ const LevelCertificationC = () => {
           className="LevelInfo"
           subtitle={[
             <LevelVerticalTimeline
+              step1Text="Demonstrate competency"
               step11
               step12
-              step13
-              step14
               step15
               step16
               step17
               step18
-              step1Text="Application to obtain the certificate"
-              step11Text="Express your interest by email or complete the booking form online."
-              step12Text="Prepare and submit a comprehensive CV for initial certificatio."
-              step13Text="CV is checked by an assessor to indicate, without any guarantees, if the level sought is attainable. "
-              step14Text="If assessor’s feedback is positive, an invoice is issued."
+              step11Text="Demonsrate that you have an IPMA® Level D certificate, which may not expire after more than 6 months, in exceptional cases and with comprehensible justification a maximum of 12 months."
+              step12Text={[
+                "Demonsrate that you have completed at least 175 hours of further training in project management in the 5 years since the last (re)certification -- Part of the required further training can be covered by practical experience in project management. Further information on the proof of practical experience and further training measures can be found in the ",
+                <Link
+                  className="LevelLink"
+                  href="#"
+                  linkText="recertification guidelines IPMA Level A, B, C and D"
+                />,
+                " and in the ",
+                <Link
+                  className="LevelLink"
+                  href="#"
+                  linkText=" recertification application."
+                />,
+              ]}
               step15Text="The fees need to be paid before receiving the Certification documentation"
               step16Text="Complete and submit the Executive Summary Report by using any of our pre-designed templates. Check them out here."
-              step17Text="Fill in and submit the Self-Assessment and Application form including the referees
-          "
+              step17Text="Fill in and submit the Self-Assessment and Application form including the referees"
               step18Text="Wait for your executive summary report to be assessed and the final approval decision for certification"
-              step2Text="Written exam"
-              step3Text="Full report preparation and submission"
-              step4
-              step4Text="Interview process"
+              step2Text="Fill re-certification form"
+              step3Text="Optional step - Change certificate"
             />,
           ]}
         />
       </Row>
-
       {/* LEVEL COST */}
       <Row>
         <LevelInfo
           className="LevelInfo"
-          title="Certification cost"
+          title="Re-certification cost"
           subtitleClass="mx-20"
           subtitle={[
             <Row className="p-0 m-0">
@@ -83,9 +89,8 @@ const LevelCertificationC = () => {
               </Col>
               ,
               <Col className="p-0 m-0">
-                <TextComponent className="subtitle text-end" text="€1’300" />
+                <TextComponent className="subtitle text-end" text="€400" />
               </Col>
-              ,
             </Row>,
           ]}
         />
@@ -101,9 +106,16 @@ const LevelCertificationC = () => {
           className="LevelInfo"
           title="Downloadables"
           subtitle={[
-            <LevelDownload dwldText="Application form" href="#" marked />,
+            <LevelDownload
+              dwldText="Re-certification guidelines IPMA Level A, B, C and D"
+              href="#"
+            />,
+            <LevelDownload
+              dwldText="Re-certification application form"
+              href="#"
+              marked
+            />,
             <LevelDownload dwldText="Self-assessment form" href="#" marked />,
-            <LevelDownload dwldText="Fee schedule" href="#" />,
             <TextComponent
               className="subtitle-s"
               text={[
@@ -134,4 +146,4 @@ const LevelCertificationC = () => {
   );
 };
 
-export default LevelCertificationC;
+export default ReCertificationD;

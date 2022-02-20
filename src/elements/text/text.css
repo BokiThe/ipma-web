@@ -84,3 +84,13 @@
     color:#ED3E3E;
 }
 
+.LevelLink{
+    color:#ED3E3E;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.LevelLink:hover{
+    color: #04151F;
+}
+

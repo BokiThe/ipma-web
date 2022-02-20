@@ -13,6 +13,7 @@ import videoExplanation_image from "../../assets/ilustrations/videoExplanation_i
 const LevelCertificationD = () => {
   return (
     <Container fluid style={{ width: "100vw" }}>
+      {/* --- HEADER --- */}
       <Row className="m-0 mb-5">
         <LevelHeader
           title="IPMA Level D certification"
@@ -36,21 +37,34 @@ const LevelCertificationD = () => {
         />
       </Row>
       {/* VERTICAL TIME LINE */}
-      <LevelInfo title="Steps to get certified" className="LevelInfo" />
-      <LevelVerticalTimeline
-        step1Text="Application to obtain the certificate"
-        step11Text="Express your interest by email or complete the booking form online."
-        step12Text="Prepare and submit a comprehensive CV for initial certification."
-        step13Text="CV is checked by an assessor to indicate, without any guarantees, if the level sought is attainable. "
-        step14Text="If assessor’s feedback is positive, an invoice is issued."
-        step15Text="The fees need to be paid before receiving the Certification documentation"
-        step16Text="Fill in and submit the Self-Assessment and Application form including the referees
-        "
-        step17Text="Wait for your executive summary report to be assessed and the final approval decision for certification"
-        step2Text="Written exam"
-        step3Text="Certification result"
-      />
-
+      <Row>
+        <LevelInfo
+          title="Steps to get certified"
+          className="LevelInfo"
+          subtitle={[
+            <LevelVerticalTimeline
+              step11
+              step12
+              step13
+              step14
+              step15
+              step16
+              step17
+              step1Text="Application to obtain the certificate"
+              step11Text="Express your interest by email or complete the booking form online."
+              step12Text="Prepare and submit a comprehensive CV for initial certification."
+              step13Text="CV is checked by an assessor to indicate, without any guarantees, if the level sought is attainable. "
+              step14Text="If assessor’s feedback is positive, an invoice is issued."
+              step15Text="The fees need to be paid before receiving the Certification documentation"
+              step16Text="Fill in and submit the Self-Assessment and Application form including the referees
+          "
+              step17Text="Wait for your executive summary report to be assessed and the final approval decision for certification"
+              step2Text="Written exam"
+              step3Text="Certification result"
+            />,
+          ]}
+        />
+      </Row>
       {/* LEVEL COST */}
       <Row>
         <LevelInfo

@@ -13,7 +13,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <Container fluid className="p-5 justify-content-center">
+    <Container fluid className=" p-5 m-0">
       <Row className="m-0 p-0">
         <Col className="col-3  p-0 m-0">
           <CardContactComponent
@@ -53,7 +53,7 @@ const Footer = () => {
             title="Subscribe to email newsletter"
           />
         </Col>
-        <Col className="col-3 p-0 m-0">
+        <Col className="col-3 p-0 m-0 ">
           <CardFolowUs
             className="blogCard"
             title="Follow us"

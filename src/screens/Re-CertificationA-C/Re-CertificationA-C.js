@@ -13,6 +13,7 @@ import videoExplanation_image from "../../assets/ilustrations/videoExplanation_i
 const ReCertificationAC = () => {
   return (
     <Container fluid style={{ width: "100vw" }}>
+      {/* --- HEADER --- */}
       <Row className="m-0 mb-5">
         <LevelHeader
           title="Re-certification for level A-C"
@@ -61,7 +62,6 @@ const ReCertificationAC = () => {
           ]}
         />
       </Row>
-
       {/* LEVEL COST */}
       <Row>
         <LevelInfo
@@ -69,17 +69,45 @@ const ReCertificationAC = () => {
           title="Re-certification cost"
           subtitleClass="mx-20"
           subtitle={[
-            <Col className="p-0 m-0">
-              <TextComponent className="subtitle" text="IPMA® Level A" />
-            </Col>,
-
-            <Col className="p-0 m-0">
-              <TextComponent className="subtitle text-end" text="€800" />
-            </Col>,
+            <Row
+              className="p-0 m-0"
+              style={{ borderBottom: "1.5px solid rgba(4,21,31,0.4)" }}
+            >
+              <Col className="p-0 m-0">
+                <TextComponent className="subtitle" text="IPMA® Level A" />
+              </Col>
+              ,
+              <Col className="p-0 m-0">
+                <TextComponent className="subtitle text-end" text="€600" />
+              </Col>
+            </Row>,
+            <Row
+              className="p-0 m-0"
+              style={{ borderBottom: "1.5px solid rgba(4,21,31,0.4)" }}
+            >
+              <Col className="p-0 m-0">
+                <TextComponent className="subtitle" text="IPMA® Level B" />
+              </Col>
+              ,
+              <Col className="p-0 m-0">
+                <TextComponent className="subtitle text-end" text="€500" />
+              </Col>
+            </Row>,
+            <Row
+              className="p-0 m-0"
+              style={{ borderBottom: "1.5px solid rgba(4,21,31,0.4)" }}
+            >
+              <Col className="p-0 m-0">
+                <TextComponent className="subtitle" text="IPMA® Level C" />
+              </Col>
+              ,
+              <Col className="p-0 m-0">
+                <TextComponent className="subtitle text-end" text="€400" />
+              </Col>
+            </Row>,
           ]}
         />
       </Row>
-
       {/* VIDEO EXPLANATION */}
       <Row>
         <LevelInfo className="LevelInfo video" title="Video explanation" />
@@ -91,9 +119,16 @@ const ReCertificationAC = () => {
           className="LevelInfo"
           title="Downloadables"
           subtitle={[
-            <LevelDownload dwldText="Application form" href="#" marked />,
+            <LevelDownload
+              dwldText="Re-certification guidelines IPMA Level A, B, C and D"
+              href="#"
+            />,
+            <LevelDownload
+              dwldText="Re-certification application form"
+              href="#"
+              marked
+            />,
             <LevelDownload dwldText="Self-assessment form" href="#" marked />,
-            <LevelDownload dwldText="Fee schedule" href="#" />,
             <TextComponent
               className="subtitle-s"
               text={[

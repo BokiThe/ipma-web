@@ -8,7 +8,6 @@ import twitter_icon from "../../assets/icons/twitter_icon.svg";
 import linkedln_icon from "../../assets/icons/linkedln_icon.svg";
 import youtube_icon from "../../assets/icons/youtube_icon.svg";
 import "./card.css";
-// TODO: ask for icons how to import them like img or like icons from fon awsome ??
 const CardFolowUs = (props) => {
   return (
     <div className={props.className}>
