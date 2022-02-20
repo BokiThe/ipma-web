@@ -9,6 +9,8 @@ import LevelCertificationC from "./screens/levelCCertification/levelCertificatio
 import LevelCertificationD from "./screens/levelDCertification/levelCertificationD";
 import ReCertificationAC from "./screens/Re-CertificationA-C/Re-CertificationA-C";
 import ReCertificationD from "./screens/Re-CertificationD/Re-CertificationD";
+import OrganisationStructure from "./screens/OrganisationStructure/organoisationStructure";
+import Costumers from "./screens/costumers/costumers";
 function App() {
   return (
     <div>
@@ -19,8 +21,10 @@ function App() {
       {/* <LevelCertificationC /> */}
       {/* <LevelCertificationD /> */}
       {/* <ReCertificationAC /> */}
-      <ReCertificationD />
+      {/* <ReCertificationD /> */}
       {/* <IndividualList /> */}
+      {/* <OrganisationStructure /> */}
+      <Costumers />
       <Footer />
     </div>
   );

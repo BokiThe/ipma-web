@@ -2,6 +2,7 @@ import blog_image from "../assets/ilustrations/blog_image.svg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import TextComponent from "../elements/text/text";
+import profilePicture_image from "../assets/ilustrations/profilePicture_image.svg";
 
 export const blogSections = [
   {
@@ -355,5 +356,122 @@ export const TableDatas = [
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
     detail: "",
+  },
+];
+export const SchemeCommittee = [
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Ed Naughton",
+    jobTitle: "Chairperson",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "John Atkinson",
+    jobTitle: "International assessor, COD",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Liam Halloran",
+    jobTitle: " Assessor",
+  },
+];
+
+export const ComplaintsAppealsCommittee = [
+  {
+    imgSrc: profilePicture_image,
+    fullName: "John Atkinson",
+    jobTitle: " Assessor",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Fiona Cranley",
+    jobTitle: " Assessor",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Other Assessors",
+    jobTitle: "----",
+  },
+];
+export const Assessors = [
+  {
+    imgSrc: profilePicture_image,
+    fullName: "John Atkinson",
+    jobTitle: "(Lead & COD)",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Fred Barry",
+    jobTitle: " Assessor",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Liam Halloran",
+    jobTitle: "Chairperson",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Derek Tierney",
+    jobTitle: "Chairperson",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Seamus Woods",
+    jobTitle: "Chairperson",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Jackie Glynn",
+    jobTitle: "Chairperson",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "David Shiel",
+    jobTitle: "Chairperson",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Fiona Cranley",
+    jobTitle: "Chairperson",
+  },
+];
+
+export const NewCoAssessors = [
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Ailish Farrelly",
+    jobTitle: "Level C co-assessor",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Stephen Sheridan",
+    jobTitle: "Level C co-assessor",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Krystyna Dimtchev",
+    jobTitle: "Level C co-assessor",
+  },
+];
+export const Adminstrations = [
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Daniela Stroiescu",
+    jobTitle: "Finance & Logistics personnel",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Patricia Calao",
+    jobTitle: "Administration, Web & Services Planning",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "John Naughton",
+    jobTitle: "Administration, Web & Services Planning",
+  },
+  {
+    imgSrc: profilePicture_image,
+    fullName: "Daniela Stroiescu",
+    jobTitle: "Certification Manager",
   },
 ];
