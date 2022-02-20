@@ -44,9 +44,8 @@ const LevelVerticalTimeline = (props) => {
       style={{
         position: "relative",
         width: "100%",
-        padding: "0 10%",
-        margin: "5% 0",
-        marginLeft: "6%",
+        padding: "0 0 0 4%",
+        margin: "20px 0",
       }}
     >
       <VerticalTimeline
@@ -117,314 +116,342 @@ const LevelVerticalTimeline = (props) => {
           className="hide"
           style={{ position: "relative", left: "0" }}
         >
-          <VerticalTimelineElement
-            position={"right"}
-            className="vertical-timeline-element"
-            contentArrowStyle={{
-              background: "transparent",
-              display: "none",
-            }}
-            contentStyle={{
-              background: "transparent",
-              color: "black",
-              margin: "0 10%",
-              boxShadow: "none",
-              padding: "0",
-            }}
-            iconStyle={{
-              background: "white",
-              textAlign: "center",
-              border: "1px solid #ED3E3E",
-              boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
-              left: "0",
-            }}
-            icon={
-              <span
-                style={{
-                  alignSelf: "center",
-                  position: "relative",
-                  top: "15%",
+          {props.step11 ? (
+            <VerticalTimelineElement
+              position={"right"}
+              className="vertical-timeline-element"
+              contentArrowStyle={{
+                background: "transparent",
+                display: "none",
+              }}
+              contentStyle={{
+                background: "transparent",
+                color: "black",
+                margin: "0 10%",
+                boxShadow: "none",
+                padding: "0",
+              }}
+              iconStyle={{
+                background: "white",
+                textAlign: "center",
+                border: "1px solid #ED3E3E",
+                boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
+                left: "0",
+              }}
+              icon={
+                <span
+                  style={{
+                    alignSelf: "center",
+                    position: "relative",
+                    top: "15%",
 
-                  fontSize: "16px",
-                }}
-              >
-                1.1
-              </span>
-            }
-          >
-            <Row className="p-0 m-0">
-              <Col>
-                <TextComponent
-                  className="vertical-timeline-element-title subtitle"
-                  text={props.step11Text}
-                />
-              </Col>
-            </Row>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            position={"right"}
-            className="vertical-timeline-element"
-            contentArrowStyle={{
-              background: "transparent",
-              display: "none",
-            }}
-            contentStyle={{
-              background: "transparent",
-              color: "black",
-              margin: "0 10%",
-              boxShadow: "none",
-              padding: "0",
-            }}
-            iconStyle={{
-              background: "white",
-              textAlign: "center",
-              border: "1px solid #ED3E3E",
-              boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
-              left: "0",
-            }}
-            icon={
-              <span
-                style={{
-                  alignSelf: "center",
-                  position: "relative",
-                  top: "15%",
+                    fontSize: "16px",
+                  }}
+                >
+                  1.1
+                </span>
+              }
+            >
+              <Row className="p-0 m-0">
+                <Col>
+                  <TextComponent
+                    className="vertical-timeline-element-title subtitle"
+                    text={props.step11Text}
+                  />
+                </Col>
+              </Row>
+            </VerticalTimelineElement>
+          ) : (
+            false
+          )}
+          {props.step12 ? (
+            <VerticalTimelineElement
+              position={"right"}
+              className="vertical-timeline-element"
+              contentArrowStyle={{
+                background: "transparent",
+                display: "none",
+              }}
+              contentStyle={{
+                background: "transparent",
+                color: "black",
+                margin: "0 10%",
+                boxShadow: "none",
+                padding: "0",
+              }}
+              iconStyle={{
+                background: "white",
+                textAlign: "center",
+                border: "1px solid #ED3E3E",
+                boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
+                left: "0",
+              }}
+              icon={
+                <span
+                  style={{
+                    alignSelf: "center",
+                    position: "relative",
+                    top: "15%",
 
-                  fontSize: "16px",
-                }}
-              >
-                1.2
-              </span>
-            }
-          >
-            <Row className="p-0 m-0">
-              <Col>
-                <TextComponent
-                  className="vertical-timeline-element-title subtitle"
-                  text={props.step12Text}
-                />
-              </Col>
-            </Row>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            position={"right"}
-            className="vertical-timeline-element"
-            contentArrowStyle={{
-              background: "transparent",
-              display: "none",
-            }}
-            contentStyle={{
-              background: "transparent",
-              color: "black",
-              margin: "0 10%",
-              boxShadow: "none",
-              padding: "0",
-            }}
-            iconStyle={{
-              background: "white",
-              textAlign: "center",
-              border: "1px solid #ED3E3E",
-              boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
-              left: "0",
-            }}
-            icon={
-              <span
-                style={{
-                  alignSelf: "center",
-                  position: "relative",
-                  top: "15%",
+                    fontSize: "16px",
+                  }}
+                >
+                  1.2
+                </span>
+              }
+            >
+              <Row className="p-0 m-0">
+                <Col>
+                  <TextComponent
+                    className="vertical-timeline-element-title subtitle"
+                    text={props.step12Text}
+                  />
+                </Col>
+              </Row>
+            </VerticalTimelineElement>
+          ) : (
+            false
+          )}
+          {props.step13 ? (
+            <VerticalTimelineElement
+              position={"right"}
+              className="vertical-timeline-element"
+              contentArrowStyle={{
+                background: "transparent",
+                display: "none",
+              }}
+              contentStyle={{
+                background: "transparent",
+                color: "black",
+                margin: "0 10%",
+                boxShadow: "none",
+                padding: "0",
+              }}
+              iconStyle={{
+                background: "white",
+                textAlign: "center",
+                border: "1px solid #ED3E3E",
+                boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
+                left: "0",
+              }}
+              icon={
+                <span
+                  style={{
+                    alignSelf: "center",
+                    position: "relative",
+                    top: "15%",
 
-                  fontSize: "16px",
-                }}
-              >
-                1.3
-              </span>
-            }
-          >
-            <Row className="p-0 m-0">
-              <Col>
-                <TextComponent
-                  className="vertical-timeline-element-title subtitle"
-                  text={props.step13Text}
-                />
-              </Col>
-            </Row>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            position={"right"}
-            className="vertical-timeline-element"
-            contentArrowStyle={{
-              background: "transparent",
-              display: "none",
-            }}
-            contentStyle={{
-              background: "transparent",
-              color: "black",
-              margin: "0 10%",
-              boxShadow: "none",
-              padding: "0",
-            }}
-            iconStyle={{
-              background: "white",
-              textAlign: "center",
-              border: "1px solid #ED3E3E",
-              boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
-              left: "0",
-            }}
-            icon={
-              <span
-                style={{
-                  alignSelf: "center",
-                  position: "relative",
-                  top: "15%",
+                    fontSize: "16px",
+                  }}
+                >
+                  1.3
+                </span>
+              }
+            >
+              <Row className="p-0 m-0">
+                <Col>
+                  <TextComponent
+                    className="vertical-timeline-element-title subtitle"
+                    text={props.step13Text}
+                  />
+                </Col>
+              </Row>
+            </VerticalTimelineElement>
+          ) : (
+            false
+          )}
+          {props.step14 ? (
+            <VerticalTimelineElement
+              position={"right"}
+              className="vertical-timeline-element"
+              contentArrowStyle={{
+                background: "transparent",
+                display: "none",
+              }}
+              contentStyle={{
+                background: "transparent",
+                color: "black",
+                margin: "0 10%",
+                boxShadow: "none",
+                padding: "0",
+              }}
+              iconStyle={{
+                background: "white",
+                textAlign: "center",
+                border: "1px solid #ED3E3E",
+                boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
+                left: "0",
+              }}
+              icon={
+                <span
+                  style={{
+                    alignSelf: "center",
+                    position: "relative",
+                    top: "15%",
 
-                  fontSize: "16px",
-                }}
-              >
-                1.4
-              </span>
-            }
-          >
-            <Row className="p-0 m-0">
-              <Col>
-                <TextComponent
-                  className="vertical-timeline-element-title subtitle"
-                  text={props.step14Text}
-                />
-              </Col>
-            </Row>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            position={"right"}
-            className="vertical-timeline-element"
-            contentArrowStyle={{
-              background: "transparent",
-              display: "none",
-            }}
-            contentStyle={{
-              background: "transparent",
-              color: "black",
-              margin: "0 10%",
-              boxShadow: "none",
-              padding: "0",
-            }}
-            iconStyle={{
-              background: "white",
-              textAlign: "center",
-              border: "1px solid #ED3E3E",
-              boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
-              left: "0",
-            }}
-            icon={
-              <span
-                style={{
-                  alignSelf: "center",
-                  position: "relative",
-                  top: "15%",
+                    fontSize: "16px",
+                  }}
+                >
+                  1.4
+                </span>
+              }
+            >
+              <Row className="p-0 m-0">
+                <Col>
+                  <TextComponent
+                    className="vertical-timeline-element-title subtitle"
+                    text={props.step14Text}
+                  />
+                </Col>
+              </Row>
+            </VerticalTimelineElement>
+          ) : (
+            false
+          )}
+          {props.step15 ? (
+            <VerticalTimelineElement
+              position={"right"}
+              className="vertical-timeline-element"
+              contentArrowStyle={{
+                background: "transparent",
+                display: "none",
+              }}
+              contentStyle={{
+                background: "transparent",
+                color: "black",
+                margin: "0 10%",
+                boxShadow: "none",
+                padding: "0",
+              }}
+              iconStyle={{
+                background: "white",
+                textAlign: "center",
+                border: "1px solid #ED3E3E",
+                boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
+                left: "0",
+              }}
+              icon={
+                <span
+                  style={{
+                    alignSelf: "center",
+                    position: "relative",
+                    top: "15%",
 
-                  fontSize: "16px",
-                }}
-              >
-                1.5
-              </span>
-            }
-          >
-            <Row className="p-0 m-0">
-              <Col>
-                <TextComponent
-                  className="vertical-timeline-element-title subtitle"
-                  text={props.step15Text}
-                />
-              </Col>
-            </Row>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            position={"right"}
-            className="vertical-timeline-element"
-            contentArrowStyle={{
-              background: "transparent",
-              display: "none",
-            }}
-            contentStyle={{
-              background: "transparent",
-              color: "black",
-              margin: "0 10%",
-              boxShadow: "none",
-              padding: "0",
-            }}
-            iconStyle={{
-              background: "white",
-              textAlign: "center",
-              border: "1px solid #ED3E3E",
-              boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
-              left: "0",
-            }}
-            icon={
-              <span
-                style={{
-                  alignSelf: "center",
-                  position: "relative",
-                  top: "15%",
+                    fontSize: "16px",
+                  }}
+                >
+                  1.5
+                </span>
+              }
+            >
+              <Row className="p-0 m-0">
+                <Col>
+                  <TextComponent
+                    className="vertical-timeline-element-title subtitle"
+                    text={props.step15Text}
+                  />
+                </Col>
+              </Row>
+            </VerticalTimelineElement>
+          ) : (
+            false
+          )}
+          {props.step16 ? (
+            <VerticalTimelineElement
+              position={"right"}
+              className="vertical-timeline-element"
+              contentArrowStyle={{
+                background: "transparent",
+                display: "none",
+              }}
+              contentStyle={{
+                background: "transparent",
+                color: "black",
+                margin: "0 10%",
+                boxShadow: "none",
+                padding: "0",
+              }}
+              iconStyle={{
+                background: "white",
+                textAlign: "center",
+                border: "1px solid #ED3E3E",
+                boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
+                left: "0",
+              }}
+              icon={
+                <span
+                  style={{
+                    alignSelf: "center",
+                    position: "relative",
+                    top: "15%",
 
-                  fontSize: "16px",
-                }}
-              >
-                1.6
-              </span>
-            }
-          >
-            <Row className="p-0 m-0">
-              <Col>
-                <TextComponent
-                  className="vertical-timeline-element-title subtitle"
-                  text={props.step16Text}
-                />
-              </Col>
-            </Row>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            position={"right"}
-            className="vertical-timeline-element"
-            contentArrowStyle={{
-              background: "transparent",
-              display: "none",
-            }}
-            contentStyle={{
-              background: "transparent",
-              color: "black",
-              margin: "0 10%",
-              boxShadow: "none",
-              padding: "0",
-            }}
-            iconStyle={{
-              background: "white",
-              textAlign: "center",
-              border: "1px solid #ED3E3E",
-              boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
-              left: "0",
-            }}
-            icon={
-              <span
-                style={{
-                  alignSelf: "center",
-                  position: "relative",
-                  top: "15%",
+                    fontSize: "16px",
+                  }}
+                >
+                  1.6
+                </span>
+              }
+            >
+              <Row className="p-0 m-0">
+                <Col>
+                  <TextComponent
+                    className="vertical-timeline-element-title subtitle"
+                    text={props.step16Text}
+                  />
+                </Col>
+              </Row>
+            </VerticalTimelineElement>
+          ) : (
+            false
+          )}
+          {props.step17 ? (
+            <VerticalTimelineElement
+              position={"right"}
+              className="vertical-timeline-element"
+              contentArrowStyle={{
+                background: "transparent",
+                display: "none",
+              }}
+              contentStyle={{
+                background: "transparent",
+                color: "black",
+                margin: "0 10%",
+                boxShadow: "none",
+                padding: "0",
+              }}
+              iconStyle={{
+                background: "white",
+                textAlign: "center",
+                border: "1px solid #ED3E3E",
+                boxShadow: "0px 0px 3px 5px rgba(237,62,62,0.1)",
+                left: "0",
+              }}
+              icon={
+                <span
+                  style={{
+                    alignSelf: "center",
+                    position: "relative",
+                    top: "15%",
 
-                  fontSize: "16px",
-                }}
-              >
-                1.7
-              </span>
-            }
-          >
-            <Row className="p-0 m-0">
-              <Col>
-                <TextComponent
-                  className="vertical-timeline-element-title subtitle"
-                  text={props.step17Text}
-                />
-              </Col>
-            </Row>
-          </VerticalTimelineElement>
+                    fontSize: "16px",
+                  }}
+                >
+                  1.7
+                </span>
+              }
+            >
+              <Row className="p-0 m-0">
+                <Col>
+                  <TextComponent
+                    className="vertical-timeline-element-title subtitle"
+                    text={props.step17Text}
+                  />
+                </Col>
+              </Row>
+            </VerticalTimelineElement>
+          ) : (
+            false
+          )}
           {props.step18 ? (
             <VerticalTimelineElement
               position={"right"}
