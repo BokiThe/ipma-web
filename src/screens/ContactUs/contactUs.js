@@ -1,11 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import TextComponent from "../../elements/text/text";
 import LevelHeader from "../../elements/levelCertification/levelHeader";
-import LevelInfo from "../../elements/levelCertification/levelInfo";
-import "../../elements/levelCertification/levelCertification.css";
 
 const ContactUs = () => {
   return (

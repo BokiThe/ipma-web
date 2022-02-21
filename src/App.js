@@ -12,6 +12,8 @@ import ReCertificationD from "./screens/Re-CertificationD/Re-CertificationD";
 import OrganisationStructure from "./screens/OrganisationStructure/organoisationStructure";
 import Costumers from "./screens/costumers/costumers";
 import ContactUs from "./screens/ContactUs/contactUs";
+import CertificationInfo from "./screens/CertificationInfo/certificationInfo";
+import CertificationLevel from "./screens/CertificationLevel/certificationLevel";
 function App() {
   return (
     <div>
@@ -26,7 +28,9 @@ function App() {
       {/* <IndividualList /> */}
       {/* <OrganisationStructure /> */}
       {/* <Costumers /> */}
-      <ContactUs />
+      {/* <ContactUs /> */}
+      {/* <CertificationInfo /> */}
+      <CertificationLevel />
       <Footer />
     </div>
   );
