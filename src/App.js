@@ -15,6 +15,7 @@ import ContactUs from "./screens/ContactUs/contactUs";
 import CertificationInfo from "./screens/CertificationInfo/certificationInfo";
 import CertificationLevel from "./screens/CertificationLevel/certificationLevel";
 import AssessorCriteria from "./screens/AssessorCriteria/assessorCriteria";
+import AboutUs from "./screens/AboutUs/aboutUs";
 function App() {
   return (
     <div>
@@ -32,7 +33,8 @@ function App() {
       {/* <ContactUs /> */}
       {/* <CertificationInfo /> */}
       {/* <CertificationLevel /> */}
-      <AssessorCriteria />
+      {/* <AssessorCriteria /> */}
+      <AboutUs />
       <Footer />
     </div>
   );
