@@ -5,8 +5,16 @@ import Col from "react-bootstrap/Col";
 import TextComponent from "../../elements/text/text";
 import LevelHeader from "../../elements/levelCertification/levelHeader";
 import LevelInfo from "../../elements/levelCertification/levelInfo";
-
+import vectorRed_icon from "../../assets/icons/vectorRed_icon.svg";
+import vectorRedDown_icon from "../../assets/icons/vectorRedDown_icon.svg";
+import ReactReadMoreReadLess from "react-read-more-read-less";
+import "../../elements/text/text.css";
+//TODO:: FIND SOLUTION FOR READ MORE READ LESS
 const CertificationLevel = () => {
+  const longText = `
+  Pre-requisites: 3 years managing high-complexity programs, and 2 years managing moderate-to-high complexity programs, and 2 years managing moderate-to-high complexity projects.
+  Typical job titles: Vice President, Client Manager, Operations VP, Senior Program Manager, Program Manager
+  `;
   return (
     <Container fluid>
       {/* --- Header --- */}
@@ -30,7 +38,7 @@ const CertificationLevel = () => {
               />
               <Row className="p-0 m-0">
                 <Col className="p-0 m-0">
-                  <TextComponent className="title-s" text="TheIf you are:" />
+                  <TextComponent className="title-s" text="If you are:" />
                 </Col>
                 <Col className="p-0 m-0">
                   <TextComponent className="title-s" text="We suggest:" />
@@ -51,10 +59,33 @@ const CertificationLevel = () => {
                   className="m-0"
                   style={{ borderLeft: "4px solid #04151F", paddingLeft: "1%" }}
                 >
-                  <TextComponent
-                    className="subtitle"
-                    text="An experienced senior manager in a project-oriented enterprise, a program manager, or a manager of project managers"
-                  />
+                  <span>
+                    Certified Project, Program, or Portfolio Director -{" "}
+                  </span>
+                  <a href="#" style={{ color: "#ED3E3E" }}>
+                    IPMA Level A®
+                  </a>
+                  <br />
+                  <ReactReadMoreReadLess
+                    charLimit={150}
+                    readMoreText={[
+                      "More info",
+                      <img
+                        src={vectorRedDown_icon}
+                        alt="vectorRedDown_image"
+                      />,
+                    ]}
+                    readLessText={[
+                      "Less info",
+                      <span>
+                        <img src={vectorRed_icon} alt="vectorRed_image" />
+                      </span>,
+                    ]}
+                    readMoreClassName="moreInfo"
+                    readLessClassName="lessInfo"
+                  >
+                    {longText}
+                  </ReactReadMoreReadLess>
                 </Col>
               </Row>
             </Col>,
