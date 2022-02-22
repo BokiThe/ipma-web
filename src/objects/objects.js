@@ -43,43 +43,6 @@ export const blogSections = [
   },
 ];
 
-export const levelCrtificaationA = [
-  {
-    title: (
-      <Row>
-        <Col>
-          <span>Step 1 </span>
-        </Col>
-        <Col>
-          <TextComponent
-            className="title-s"
-            text="Application to obtain the certificate"
-          />
-        </Col>
-      </Row>
-    ),
-    content: "",
-  },
-];
-
-export const contentA = [
-  {
-    1: (
-      <Row>
-        <Col>
-          <span>1.1</span>
-        </Col>
-        <Col>
-          <TextComponent
-            classname="subtitle"
-            text="Express your interest by email or complete the booking form online."
-          />
-        </Col>
-      </Row>
-    ),
-  },
-];
-
 export const TableDatas = [
   {
     id: 1,
@@ -356,6 +319,200 @@ export const TableDatas = [
     certificationDate: new Date(2015, 9, 3),
     certificationStatus: true,
     detail: "",
+  },
+];
+export const AssessorsData = [
+  {
+    id: 1,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 2,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 3,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 4,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 5,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 6,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 7,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 8,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 9,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 10,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 11,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 12,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 13,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 14,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 15,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 16,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 17,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 19,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 20,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 21,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 22,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 23,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 24,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
+  },
+  {
+    id: 25,
+    certificate: "A.Marca",
+    surname: "Fabian",
+    firstName: "Regensdorf",
+    location: "20 January 2018",
+    assessorsLevel: "Level A,B & C",
   },
 ];
 export const SchemeCommittee = [

@@ -16,6 +16,7 @@ import CertificationInfo from "./screens/CertificationInfo/certificationInfo";
 import CertificationLevel from "./screens/CertificationLevel/certificationLevel";
 import AssessorCriteria from "./screens/AssessorCriteria/assessorCriteria";
 import AboutUs from "./screens/AboutUs/aboutUs";
+import AssessorList from "./screens/AssessorsList/AssessorsList";
 function App() {
   return (
     <div>
@@ -34,7 +35,8 @@ function App() {
       {/* <CertificationInfo /> */}
       {/* <CertificationLevel /> */}
       {/* <AssessorCriteria /> */}
-      <AboutUs />
+      {/* <AboutUs /> */}
+      <AssessorList />
       <Footer />
     </div>
   );
