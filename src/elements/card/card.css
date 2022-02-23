@@ -48,6 +48,9 @@
 .blogImg{
    display: inline-block;
    margin-bottom: 10px;
+   outline: 1px solid #04151F;
+   border-radius:8px;
+  
 }
 .blogLink{
     text-decoration: none;

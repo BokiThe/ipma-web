@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -15,6 +15,11 @@ const CertificationLevel = () => {
   Pre-requisites: 3 years managing high-complexity programs, and 2 years managing moderate-to-high complexity programs, and 2 years managing moderate-to-high complexity projects.
   Typical job titles: Vice President, Client Manager, Operations VP, Senior Program Manager, Program Manager
   `;
+  const [borderColor, setborderColor] = useState("#04151F");
+  const ReadMore = () => {
+    setborderColor("#ED3E3E");
+    return <img src={vectorRedDown_icon} alt="vectorRedDown_image" />;
+  };
   return (
     <Container fluid>
       {/* --- Header --- */}
@@ -48,7 +53,10 @@ const CertificationLevel = () => {
               <Row className="p-0 m-0">
                 <Col
                   className="m-0"
-                  style={{ borderLeft: "4px solid #04151F", paddingLeft: "1%" }}
+                  style={{
+                    borderLeft: ` 4px solid ${borderColor}`,
+                    paddingLeft: "1%",
+                  }}
                 >
                   <TextComponent
                     className="subtitle"
@@ -57,7 +65,10 @@ const CertificationLevel = () => {
                 </Col>
                 <Col
                   className="m-0"
-                  style={{ borderLeft: "4px solid #04151F", paddingLeft: "1%" }}
+                  style={{
+                    borderLeft: ` 4px solid ${borderColor}`,
+                    paddingLeft: "1%",
+                  }}
                 >
                   <span>
                     Certified Project, Program, or Portfolio Director -{" "}
@@ -68,19 +79,8 @@ const CertificationLevel = () => {
                   <br />
                   <ReactReadMoreReadLess
                     charLimit={150}
-                    readMoreText={[
-                      "More info",
-                      <img
-                        src={vectorRedDown_icon}
-                        alt="vectorRedDown_image"
-                      />,
-                    ]}
-                    readLessText={[
-                      "Less info",
-                      <span>
-                        <img src={vectorRed_icon} alt="vectorRed_image" />
-                      </span>,
-                    ]}
+                    readMoreText={["More info", <ReadMore />]}
+                    readLessText={["Less info", <ReadMore />]}
                     readMoreClassName="moreInfo"
                     readLessClassName="lessInfo"
                   >

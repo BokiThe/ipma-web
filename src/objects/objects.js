@@ -632,3 +632,173 @@ export const Adminstrations = [
     jobTitle: "Certification Manager",
   },
 ];
+export const latestNews = [
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+  {
+    src: blog_image,
+    title: "Creative project management and practices for 2021",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero....",
+    href: "#",
+    linkText: "Read more >>",
+  },
+];

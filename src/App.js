@@ -17,11 +17,13 @@ import CertificationLevel from "./screens/CertificationLevel/certificationLevel"
 import AssessorCriteria from "./screens/AssessorCriteria/assessorCriteria";
 import AboutUs from "./screens/AboutUs/aboutUs";
 import AssessorList from "./screens/AssessorsList/AssessorsList";
+import LatestNews from "./screens/LatestNews/latestNews";
+import LatestBlogspots from "./screens/LatestBlogspots/latestBlogspots";
 function App() {
   return (
     <div>
       <NavBar />
-      {/* <HomePage /> */}
+      <HomePage />
       {/* <LevelCertificationA /> */}
       {/* <LevelCertificationB /> */}
       {/* <LevelCertificationC /> */}
@@ -36,7 +38,9 @@ function App() {
       {/* <CertificationLevel /> */}
       {/* <AssessorCriteria /> */}
       {/* <AboutUs /> */}
-      <AssessorList />
+      {/* <AssessorList /> */}
+      {/* <LatestNews /> */}
+      {/* <LatestBlogspots /> */}
       <Footer />
     </div>
   );

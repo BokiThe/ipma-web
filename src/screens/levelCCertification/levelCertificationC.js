@@ -12,7 +12,7 @@ import LevelVerticalTimeline from "../../elements/levelCertification/levelTimeLi
 import videoExplanation_image from "../../assets/ilustrations/videoExplanation_image.svg";
 const LevelCertificationC = () => {
   return (
-    <Container fluid style={{ width: "100vw" }}>
+    <Container fluid className="p-0 m-0">
       {/* --- HEADER --- */}
       <Row className="m-0 mb-5">
         <LevelHeader
