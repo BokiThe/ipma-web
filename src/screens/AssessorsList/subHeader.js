@@ -17,6 +17,7 @@ const SubHeader = ({ filterText, onFilter, onExport }) => {
       />
 
       <Button
+        key={1}
         className="btnFilter"
         onClick={onExport}
         text={[
@@ -34,6 +35,7 @@ const SubHeader = ({ filterText, onFilter, onExport }) => {
       />
 
       <Button
+        key={2}
         className="btnFilter"
         text={[
           "Filters",

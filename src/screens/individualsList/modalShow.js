@@ -36,35 +36,35 @@ const ModalShow = (props) => {
         </Modal.Header>
         <Modal.Body>
           <table className="modalTable">
-            <tr>
+            <tr key={1}>
               <td>Certificate</td>
               <td>{data.certificate}</td>
             </tr>
-            <tr>
+            <tr key={2}>
               <td>Salutation</td>
               <td>{data.salutation}</td>
             </tr>
-            <tr>
+            <tr key={3}>
               <td>Surname</td>
               <td>{data.surname}</td>
             </tr>
-            <tr>
+            <tr key={4}>
               <td>Name</td>
               <td>{data.firstName}</td>
             </tr>
-            <tr>
+            <tr key={5}>
               <td>Location</td>
               <td>{data.location}</td>
             </tr>
-            <tr>
+            <tr key={6}>
               <td>Postcode</td>
               <td>{data.postcode}</td>
             </tr>
-            <tr>
+            <tr key={7}>
               <td>Initial certification date</td>
               <td>{handleDate(data.certificationDate)}</td>
             </tr>
-            <tr>
+            <tr key={8}>
               <td>Certification status</td>
               <td>
                 {data.certificationStatus ? (

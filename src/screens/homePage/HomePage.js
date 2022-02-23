@@ -38,8 +38,12 @@ const HomePage = () => {
             before issuing. Our certifications are also trusted worldwide."
           />
           <Row>
-            <Button className="btnLarge" text="Explore certifications" />
-            <Button className="btnLarge" text="Help me choose" />
+            <Button
+              key={1}
+              className="btnLarge"
+              text="Explore certifications"
+            />
+            <Button key={2} className="btnLarge" text="Help me choose" />
             <span id="scrollDown" onClick={() => console.log("skrollDown")}>
               Scroll down <Image fluid src={vector_icon}></Image>
             </span>
@@ -190,7 +194,7 @@ const HomePage = () => {
         />
       </Row>
       <Row id="benefitsCards">
-        <Col className="CardBorder">
+        <Col className="CardBorder" key={1}>
           <CardImgComponent
             className="CardM"
             imgClass="cardImg"
@@ -201,7 +205,7 @@ const HomePage = () => {
           />
           <div className="borderRight1"></div>
         </Col>
-        <Col className="CardBorder">
+        <Col className="CardBorder" key={2}>
           <CardImgComponent
             imgClass="cardImg"
             src={coin_image}
@@ -212,7 +216,7 @@ const HomePage = () => {
           />
           <div className="borderRight1"></div>
         </Col>
-        <Col className="CardBorder">
+        <Col className="CardBorder" key={3}>
           <CardImgComponent
             className="CardM"
             imgClass="cardImg"
@@ -223,7 +227,7 @@ const HomePage = () => {
           />
           <div className="borderRight1"></div>
         </Col>
-        <Col>
+        <Col key={4}>
           <CardImgComponent
             className="CardM"
             imgClass="cardImg"
@@ -237,10 +241,10 @@ const HomePage = () => {
       </Row>
       {/* --- ABOUT US SECTION--- */}
       <Row id="aboutSection">
-        <Col>
+        <Col key={1}>
           <Image src={pexels_image} alt="pexels_image" />
         </Col>
-        <Col>
+        <Col key={2}>
           <CardComponent
             id="cardAboutUs"
             className="CardL"
@@ -252,7 +256,7 @@ const HomePage = () => {
       </Row>
       {/* --- FAQs SECTION --- */}
       <Row>
-        <Col className="CardBorder col-4">
+        <Col className="CardBorder col-4" key={1}>
           <CardComponent
             className="CardLast"
             title="More questions?
@@ -261,17 +265,17 @@ We’ve got you covered."
           />
           <div className="borderRight1"></div>
         </Col>
-        <Col className="col-8">
+        <Col className="col-8" key={2}>
           <FaqComponent />
         </Col>
       </Row>
 
       {/* --- LATEST FROM OUR BLOG --- */}
       <Row style={{ width: "100%", justifyContent: "space-between" }}>
-        <Col>
+        <Col key={1}>
           <TextComponent className="title-l" text="Latest from our blog" />
         </Col>
-        <Col style={{ textAlign: "end" }}>
+        <Col style={{ textAlign: "end" }} key={2}>
           <Button className="btnLarge" text="More posts" />
         </Col>
       </Row>

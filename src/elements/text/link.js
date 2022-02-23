@@ -3,7 +3,7 @@ import "./text.css";
 
 const Link = (props) => {
   return (
-    <a className={props.className} href={props.href}>
+    <a onClick={props.onClick} className={props.className} href={props.href}>
       {props.linkText}
     </a>
   );
