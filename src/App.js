@@ -20,9 +20,8 @@ import AssessorList from "./screens/AssessorsList/AssessorsList";
 import LatestNews from "./screens/LatestNews/latestNews";
 import LatestBlogspots from "./screens/LatestBlogspots/latestBlogspots";
 function App() {
-    console.log = console.warn = console.error = () => {};
-
-    return (
+  console.log = console.warn = console.error = () => {};
+  return (
     <div>
       <NavBar />
       <HomePage />

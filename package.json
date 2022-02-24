@@ -1,5 +1,6 @@
 {
   "name": "ipma-web",
+  "hompage": "https://ipma.luxuryfashionstyles.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +16,7 @@
     "react-faq-component": "^1.3.1",
     "react-js-pagination": "^3.0.3",
     "react-read-more-read-less": "^1.0.7",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "react-vertical-timeline-component": "^3.5.2",
     "styled-components": "^5.3.3",

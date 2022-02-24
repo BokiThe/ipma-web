@@ -65,7 +65,7 @@ const NavBar = () => {
         </Col>
         <Col key={3}>
           <Link
-            key={3}
+            key={2}
             className="cardLink"
             href="#"
             linkText={[
@@ -75,10 +75,10 @@ const NavBar = () => {
           />
         </Col>
         <Col key={4}>
-          <Link className="cardLink" href="#" linkText={["Assessors"]} key={4}/>
+          <Link className="cardLink" href="#" linkText={["Assessors"]} />
         </Col>
         <Col key={5}>
-          <Link className="cardLink" href="#" linkText={["Contact Us"]} key={5} />
+          <Link className="cardLink" href="#" linkText={["Contact Us"]} />
         </Col>
       </Row>
     </Container>
