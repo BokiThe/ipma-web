@@ -9,6 +9,7 @@ import CardFolowUs from "../../elements/card/cardFolowUs";
 import marker_icon from "../../assets/icons/marker_icon.svg";
 import phone_icon from "../../assets/icons/phone_icon.svg";
 import mail_icon from "../../assets/icons/mail_icon.svg";
+
 import "./footer.css";
 
 const Footer = () => {
@@ -35,15 +36,15 @@ const Footer = () => {
           <CardUsfulLinks
             className="blogCard"
             title="Usful links"
-            cardHref1="#"
+            cardHref1="/aboutUs"
             cardText1="About"
-            cardHref2="#"
+            cardHref2="/certificationInfo"
             cardText2="Certification"
-            cardHref3="#"
+            cardHref3="/reCertificationAC"
             cardText3="Re-Certification"
-            cardHref4="#"
+            cardHref4="/latestBlogs"
             cardText4="Blog-posts"
-            cardHref5="#"
+            cardHref5="/assessorCriteria"
             cardText5="Assessors"
           />
         </Col>

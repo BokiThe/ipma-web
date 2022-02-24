@@ -6,7 +6,6 @@ import Image from "react-bootstrap/Image";
 import IPMA_nav_logo from "../../assets/logos/IPMA_logo.svg";
 import phone_nav_icon from "../../assets/icons/phone_nav_icon.svg";
 import mail_nav_icon from "../../assets/icons/mail_nav_icon.svg";
-import vector_icon from "../../assets/icons/vector_icon.svg";
 import ModalNav from "./modalNav";
 import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
