@@ -45,7 +45,7 @@ function App() {
           <Route path="/certificationA">
             <LevelCertificationA />
           </Route>
-          <Route path="/certificaationB">
+          <Route path="/certificationB">
             <LevelCertificationB />
           </Route>
           <Route path="/certificationC">
