@@ -19,7 +19,7 @@ import AboutUs from "./screens/AboutUs/aboutUs";
 import AssessorList from "./screens/AssessorsList/AssessorsList";
 import LatestNews from "./screens/LatestNews/latestNews";
 import LatestBlogspots from "./screens/LatestBlogspots/latestBlogspots";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   console.log = console.warn = console.error = () => {};
   return (

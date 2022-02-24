@@ -1,6 +1,7 @@
 import React from "react";
 import TextComponent from "../text/text";
-import Link from "../text/link";
+
+import { Link } from "react-router-dom";
 import "./card.css";
 
 const CardUsfulLinks = (props) => {
@@ -10,31 +11,21 @@ const CardUsfulLinks = (props) => {
       <div className="titleBorder">
         <div className="filler"></div>
       </div>
-      <Link
-        className="cardLink"
-        href={props.cardHref1}
-        linkText={props.cardText1}
-      />
-      <Link
-        className="cardLink"
-        href={props.cardHref2}
-        linkText={props.cardText2}
-      />
-      <Link
-        className="cardLink"
-        href={props.cardHref3}
-        linkText={props.cardText3}
-      />
-      <Link
-        className="cardLink"
-        href={props.cardHref4}
-        linkText={props.cardText4}
-      />
-      <Link
-        className="cardLink"
-        href={props.cardHref5}
-        linkText={props.cardText5}
-      />
+      <Link className="cardLink" to={props.cardHref1}>
+        {props.cardText1}
+      </Link>
+      <Link className="cardLink" to={props.cardHref2}>
+        {props.cardText2}
+      </Link>
+      <Link className="cardLink" to={props.cardHref3}>
+        {props.cardText3}
+      </Link>
+      <Link className="cardLink" to={props.cardHref4}>
+        {props.cardText4}
+      </Link>
+      <Link className="cardLink" to={props.cardHref5}>
+        {props.cardText5}
+      </Link>
     </div>
   );
 };
