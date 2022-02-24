@@ -19,31 +19,72 @@ import AboutUs from "./screens/AboutUs/aboutUs";
 import AssessorList from "./screens/AssessorsList/AssessorsList";
 import LatestNews from "./screens/LatestNews/latestNews";
 import LatestBlogspots from "./screens/LatestBlogspots/latestBlogspots";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   console.log = console.warn = console.error = () => {};
   return (
-    <div>
+    <Router>
       <NavBar />
-      <HomePage />
-      {/* <LevelCertificationA /> */}
-      {/* <LevelCertificationB /> */}
-      {/* <LevelCertificationC /> */}
-      {/* <LevelCertificationD /> */}
-      {/* <ReCertificationAC /> */}
-      {/* <ReCertificationD /> */}
-      {/* <IndividualList /> */}
-      {/* <OrganisationStructure /> */}
-      {/* <Costumers /> */}
-      {/* <ContactUs /> */}
-      {/* <CertificationInfo /> */}
-      {/* <CertificationLevel /> */}
-      {/* <AssessorCriteria /> */}
-      {/* <AboutUs /> */}
-      {/* <AssessorList /> */}
-      {/* <LatestNews /> */}
-      {/* <LatestBlogspots /> */}
+      <div>
+        <Switch>
+          <Route exact path="/">
+            <HomePage />
+          </Route>
+          <Route path="/aboutUs">
+            <AboutUs />
+          </Route>
+          <Route path="/contactUs">
+            <ContactUs />
+          </Route>
+          <Route path="/assessors">
+            <AssessorList />
+          </Route>
+          <Route path="/assessorCriteria">
+            <AssessorCriteria />
+          </Route>
+          <Route path="/certificationA">
+            <LevelCertificationA />
+          </Route>
+          <Route path="/certificaationB">
+            <LevelCertificationB />
+          </Route>
+          <Route path="/certificationC">
+            <LevelCertificationC />
+          </Route>
+          <Route path="/certificationD">
+            <LevelCertificationD />
+          </Route>
+          <Route path="/reCertificationAC">
+            <ReCertificationAC />
+          </Route>
+          <Route path="/reCertificationD">
+            <ReCertificationD />
+          </Route>
+          <Route path="/certificationInfo">
+            <CertificationInfo />
+          </Route>
+          <Route path="/certificationLevels">
+            <CertificationLevel />
+          </Route>
+          <Route path="/latestNews">
+            <LatestNews />
+          </Route>
+          <Route path="/latestBlogs">
+            <LatestBlogspots />
+          </Route>
+          <Route path="/organisationStructure">
+            <OrganisationStructure />
+          </Route>
+          <Route path="/individualList">
+            <IndividualList />
+          </Route>
+          <Route path="/costumers">
+            <Costumers />
+          </Route>
+        </Switch>
+      </div>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
