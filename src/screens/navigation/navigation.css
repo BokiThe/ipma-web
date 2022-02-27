@@ -52,9 +52,12 @@
        margin-top: 20px !important;
     }
 
-    .navbar-toggler{
+    .navbar-toggler, .dropdown-toggle{
        margin:0 auto ;
        
+    }
+    .dropdown-item{
+        text-align: center;
     }
     .navbar-nav{
         text-align: center;
