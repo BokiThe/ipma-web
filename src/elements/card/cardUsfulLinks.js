@@ -7,9 +7,11 @@ import "./card.css";
 const CardUsfulLinks = (props) => {
   return (
     <div className={props.className}>
-      <TextComponent className="title-m" text={props.title} />
-      <div className="titleBorder">
-        <div className="filler"></div>
+      <div>
+        <TextComponent className="title-m" text={props.title} />
+        <div className="titleBorder">
+          <div className="filler"></div>
+        </div>
       </div>
       <Link className="cardLink" to={props.cardHref1}>
         {props.cardText1}

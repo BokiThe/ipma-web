@@ -6,9 +6,11 @@ import "./card.css";
 const CardSubscribe = (props) => {
   return (
     <div className={props.className}>
-      <TextComponent className="title-m" text={props.title} />
-      <div className="titleBorder">
-        <div className="filler"></div>
+      <div>
+        <TextComponent className="title-m" text={props.title} />
+        <div className="titleBorder">
+          <div className="filler"></div>
+        </div>
       </div>
       <form id="subscribeForm">
         <input type="e-mail" placeholder="Enter your email here" />

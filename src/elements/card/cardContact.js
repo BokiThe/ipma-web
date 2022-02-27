@@ -5,9 +5,11 @@ import "./card.css";
 const CardContactComponent = (props) => {
   return (
     <div className={props.className}>
-      <TextComponent className="title-m" text={props.title} />
-      <div className="titleBorder">
-        <div className="filler"></div>
+      <div>
+        <TextComponent className="title-m" text={props.title} />
+        <div className="titleBorder">
+          <div className="filler"></div>
+        </div>
       </div>
       <TextComponent className="subtitle-s" text={props.subtitle} />
       <div className="contactBox">

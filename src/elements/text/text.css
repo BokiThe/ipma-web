@@ -4,7 +4,6 @@
     line-height: 54px;
     margin: 10px 0px;
     color:#04151F;
-    font-style: medium;
     overflow-wrap: break-word;
     
 
@@ -15,7 +14,7 @@
     line-height: 42px;
     margin: 10px 0px;
     color:#04151F;
-    font-style: medium;
+  
     overflow-wrap: break-word;
     
 
@@ -26,7 +25,6 @@
     line-height: 36px;
     margin: 10px 0px;
     color:#04151F;
-    font-style: medium;
     overflow-wrap: break-word;
    
 }
@@ -54,7 +52,6 @@
     line-height:20px;
     font-weight:300;
     margin: 10px 0px; 
-    font-style: normal;
     color:#04151F;
     padding:0;
     width: 100%;
@@ -65,7 +62,6 @@
     font-size:12px;
     line-height:18px;
     margin: 10px 0px; 
-    font-style: normal;
     color:#04151F;
     width: 100%;
     overflow-wrap: break-word;
@@ -97,4 +93,34 @@
 
 .moreInfo, .lessInfo{
     color:#ED3E3E;
+}
+
+
+/* TABLET */
+@media only screen and (max-width: 768px) {
+    /* .title-xl{
+        font-size: 24px;
+        line-height:1.5em;
+      }
+      .title-l{
+        font-size:20px;
+        line-height:1.5em;
+      }
+      .title-m{
+      font-size:18px;
+      line-height:1.5em;
+      }
+      .title-s{
+        font-size: 16px;
+        line-height:1.5em;
+      }
+      .title-xs{
+        font-size:14px;
+        line-height:1.5em;
+      }
+      .subtitle,.subtitle-s,.cardLink, .LevelLink{
+        font-size:10px;
+        line-height:1.5em;
+      } */
+      
 }

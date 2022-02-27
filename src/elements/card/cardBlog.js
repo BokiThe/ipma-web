@@ -15,7 +15,11 @@ const CardBlogComponent = (props) => {
         />
       </div>
       <TextComponent className="title-xs " text={props.title} />
-      <a href={props.href} className={props.linkClass}>
+      <a
+        href={props.href}
+        style={{ textDecoration: "none" }}
+        className="blogLink"
+      >
         {props.linkText}
       </a>
     </div>

@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <Container fluid className=" p-5 m-0">
       <Row className="m-0 p-0">
-        <Col className="col-3  p-0 m-0">
+        <Col className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12  p-1 m-0">
           <CardContactComponent
             className="blogCard"
             title="Contact info"
@@ -32,7 +32,7 @@ const Footer = () => {
             contactInfo3="Support@ipmaireland.con"
           />
         </Col>
-        <Col className="col-2 p-0 m-0">
+        <Col className="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12  p-0 m-0">
           <CardUsfulLinks
             className="blogCard"
             title="Usful links"
@@ -48,13 +48,13 @@ const Footer = () => {
             cardText5="Assessors"
           />
         </Col>
-        <Col className="col-4 p-0 m-0">
+        <Col className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12  p-0 m-0">
           <CardSubscribe
-            classNam="blogCard"
+            className="blogCard"
             title="Subscribe to email newsletter"
           />
         </Col>
-        <Col className="col-3 p-0 m-0 ">
+        <Col className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12  p-0 m-0 ">
           <CardFolowUs
             className="blogCard"
             title="Follow us"

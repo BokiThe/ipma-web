@@ -7,7 +7,7 @@ import Image from "react-bootstrap/Image";
 import Button from "../../elements/button/button";
 import TextComponent from "../../elements/text/text";
 import header_image from "../../assets/ilustrations/header_image.png";
-import vector_icon from "../../assets/icons/vector_icon.png";
+import vector_icon from "../../assets/icons/vector_icon.svg";
 import benefits_image from "../../assets/ilustrations/benefits_image.png";
 import ed_naughton_avatar from "../../assets/ilustrations/ed_naughton_avatar.png";
 import lock_image from "../../assets/ilustrations/lock_image.svg";
@@ -20,13 +20,17 @@ import CardImgComponent from "../../elements/card/cardImg";
 import FaqComponent from "../../elements/faqComponent/faq";
 import CardBlogComponent from "../../elements/card/cardBlog";
 import { blogSections } from "../../objects/objects";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
     <Container fluid id="rootSection" className="p-5">
       {/* --- HEADER SECTION --- */}
       <Row id="headerSection">
-        <Col id="headerText" className="m-l-1">
+        <Col
+          id="headerText"
+          className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12"
+        >
           <TextComponent
             className="title-xl"
             text="Get certified by the official project management body"
@@ -37,26 +41,36 @@ const HomePage = () => {
             every level. All our certification leels are thoroughly vetted
             before issuing. Our certifications are also trusted worldwide."
           />
-          <Row>
-            <Button
-              key={1}
-              className="btnLarge"
-              text="Explore certifications"
-            />
-            <Button key={2} className="btnLarge" text="Help me choose" />
-            <span id="scrollDown" onClick={() => console.log("skrollDown")}>
-              Scroll down <Image fluid src={vector_icon}></Image>
-            </span>
+          <Row className="align-start m-1 p-0">
+            <Col className="m-1 p-0 col-xl-6 col-lg-6  col-md-6 col-sm-12 col-12">
+              <Link className="btnCard" to="/certificationLevels">
+                Explore certifications
+              </Link>
+            </Col>
+            <Col className="m-1 p-0 col-xl-5 col-lg-5  col-md-5 col-sm-12 col-12">
+              <Link className="btnCard" to="/certificationInfo">
+                Help me choose
+              </Link>
+            </Col>
+            <Row>
+              <a className="cardLink" onClick={() => console.log("skrollDown")}>
+                Scroll down{" "}
+                <Image fluid height="10px" src={vector_icon}></Image>
+              </a>
+            </Row>
           </Row>
         </Col>
 
-        <Col style={{ textAlign: "right" }} className="col-5">
+        <Col
+          style={{ textAlign: "right" }}
+          className="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12"
+        >
           <Image fluid src={header_image} alt="header_image" />
         </Col>
       </Row>
       {/* --- GET TO KNOW US MORE --- */}
       <Row style={{ width: "100%", justifyContent: "space-between" }}>
-        <Col className="col-5 p-0">
+        <Col className="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12 p-0 ">
           <TextComponent className="title-l" text="Get to know us more" />
           <TextComponent
             className="subtitle"
@@ -64,17 +78,17 @@ const HomePage = () => {
 "
           />
         </Col>
-        <Col className="col-6 p-0">
+        <Col className="p-0 col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12 ">
           <Row className="justify-content-end">
-            <Col className="col-3 text-center">
+            <Col className=" text-center">
               <TextComponent className="title-xl" text="30+" />
               <TextComponent className="subtitle" text="Active years" />
             </Col>
-            <Col className="col-3 text-center">
+            <Col className="text-center">
               <TextComponent className="title-xl" text="10k+" />
               <TextComponent className="subtitle" text="Certified members" />
             </Col>
-            <Col className="col-3 text-center">
+            <Col className="text-center">
               <TextComponent className="title-xl" text="28k+" />
               <TextComponent className="subtitle" text="Re-Certified" />
             </Col>
@@ -83,10 +97,10 @@ const HomePage = () => {
       </Row>
       {/* --- BENEFITS SECTION --- */}
       <Row>
-        <Col>
-          <Image src={benefits_image} alt="benefits_image" />
+        <Col className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 benefitsImage">
+          <Image fluid src={benefits_image} alt="benefits_image" />
         </Col>
-        <Col>
+        <Col className="benefitsAside col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
           <TextComponent
             className="title-m"
             text="Benefits of an IPMA certification"
@@ -134,16 +148,18 @@ const HomePage = () => {
               title="IPMA Level A"
               subtitle="To possess this certification, you need to demonstrate that you possess the competences as described in the IPMA ICB4, continually and consistently applied these competences in a highly complex environment, taking full responsibility in a leading role."
               BtnText="Learn more"
+              goTo="/certificationA"
             />
             <div className="borderRight"></div>
           </Col>
 
-          <Col>
+          <Col className="CardBorder1">
             <CardComponent
               className="CardL"
               title="IPMA Level B"
               subtitle="IPMA level B certification is a confirmation of competences at a senior level in projects, programmes and portfolios management. Level B certificate holders have demonstrated the competences described by the IPMA International Competence Baseline®, "
               BtnText="Learn more"
+              goTo="/certificationB"
             />
           </Col>
         </Row>
@@ -154,15 +170,17 @@ const HomePage = () => {
               title="IPMA Level C"
               subtitle="IPMA level C Certification is a confirmation of experience level in managing projects. Level C certificate holders have demonstrated that they possess the competences as described by the IPMA International Competence Baseline®."
               BtnText="Learn more"
+              goTo="/certificationC"
             />
             <div className="borderRight"></div>
           </Col>
-          <Col>
+          <Col className="CardBorder1">
             <CardComponent
               className="CardL"
               title="IPMA Level D"
               subtitle="Achieving IPMA level D certification is a recognition of your knowledge about managing projects. To possess Level D certification, one needs to demonstrate the competences as described by the IPMA International Competence Baseline®."
               BtnText="Learn more"
+              goTo="/certificationD"
             />
           </Col>
         </Row>
@@ -173,15 +191,17 @@ const HomePage = () => {
               title="Not sure what level to apply for?"
               subtitle="If you’re not sure what certification level to apply for, hit the button below to contact us so we can suggest an appropriate level based on your current work experience, knowledge level and overall competence."
               BtnText="Contact Us"
+              goTo="/contactUs"
             />
             <div className="borderRight"></div>
           </Col>
-          <Col>
+          <Col className="CardBorder1">
             <CardComponent
               className="CardLast"
               title="Get recertified"
               subtitle="Certified project managers may apply for re-certification procedure. The conditions of re-certification procedure are project management activities, continuing education and professional development, also acquirement of project management experience and skills."
               BtnText="Learn more"
+              goTo="/reCertificationAC"
             />
           </Col>
         </Row>
@@ -227,7 +247,7 @@ const HomePage = () => {
           />
           <div className="borderRight1"></div>
         </Col>
-        <Col key={4}>
+        <Col className="CardBorder1">
           <CardImgComponent
             className="CardM"
             imgClass="cardImg"
@@ -241,42 +261,59 @@ const HomePage = () => {
       </Row>
       {/* --- ABOUT US SECTION--- */}
       <Row id="aboutSection">
-        <Col key={1}>
-          <Image src={pexels_image} alt="pexels_image" />
+        <Col className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 benefitsImage">
+          <Image fluid src={pexels_image} alt="pexels_image" />
         </Col>
-        <Col key={2}>
+        <Col className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
           <CardComponent
             id="cardAboutUs"
             className="CardL"
             title="About Us - IPMA Ireland"
             subtitle="The IPMA Ireland is the National Association for the administration of the IPMA® (International Project Management Association) four level certification system. There are at present in excess of 5000 certified IPMA® project professionals in Ireland. "
             BtnText="Learn more"
+            goTo="/aboutUs"
           />
         </Col>
       </Row>
       {/* --- FAQs SECTION --- */}
       <Row>
-        <Col className="CardBorder col-4" key={1}>
+        <Col
+          className="CardBorder col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12"
+          key={1}
+        >
           <CardComponent
             className="CardLast"
             title="More questions?
 We’ve got you covered."
             BtnText="Contact Us"
+            goTo="/contactUs"
           />
           <div className="borderRight1"></div>
         </Col>
-        <Col className="col-8" key={2}>
+        <Col className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12" key={2}>
           <FaqComponent />
         </Col>
       </Row>
 
       {/* --- LATEST FROM OUR BLOG --- */}
-      <Row style={{ width: "100%", justifyContent: "space-between" }}>
-        <Col key={1}>
+      <Row
+        style={{
+          width: "100%",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <Col className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 p-0 ">
           <TextComponent className="title-l" text="Latest from our blog" />
         </Col>
-        <Col style={{ textAlign: "end" }} key={2}>
-          <Button className="btnLarge" text="More posts" />
+        <Col
+          style={{ textAlign: "end" }}
+          className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 p-0 m-0"
+          key={2}
+        >
+          <Link className="btnCard" to="/latestBlogs">
+            More posts
+          </Link>
         </Col>
       </Row>
       {/* --- BLOG CARDS SECTION --- */}

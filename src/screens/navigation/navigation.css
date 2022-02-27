@@ -8,6 +8,7 @@
     background:transparent !important;
     box-shadow: none !important;
     border:none !important;
+    margin-right:20px;
     
 }
 .dropdown-toggle:hover{
@@ -39,4 +40,23 @@
 .navLink:hover{
     background:#ED3E3E;
     color:white;
+}
+
+/* TABLET  */
+@media only screen and (max-width:425px) {
+    .col{
+        text-align: center;
+    }
+    .navIcons{
+       text-align: center;
+       margin-top: 20px !important;
+    }
+
+    .navbar-toggler{
+       margin:0 auto ;
+       
+    }
+    .navbar-nav{
+        text-align: center;
+    }
 }

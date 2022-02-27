@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../button/button";
+import { Link } from "react-router-dom";
 import TextComponent from "../text/text";
 import "./card.css";
 
@@ -8,7 +8,9 @@ const CardComponent = (props) => {
     <div id={props.id} className={props.className}>
       <TextComponent className="title-l" text={props.title} />
       <TextComponent className="subtitle cardSubtitle" text={props.subtitle} />
-      <Button className="btnCard" text={props.BtnText} />
+      <Link style={{ width: "50%" }} className="btnCard" to={props.goTo}>
+        {props.BtnText}
+      </Link>
     </div>
   );
 };

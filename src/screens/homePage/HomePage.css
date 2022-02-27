@@ -115,3 +115,43 @@
     justify-content:flex-start;
     width:100%;
 }
+.benefitsAside .title-m{
+    margin-top: 0 !important;
+}
+
+@media only screen and (max-width:768px) {
+    #messageBauble{
+        padding:10px;
+    }
+    #messageBauble div{
+        margin:0 !important;
+    }
+    #headerSection .col:nth-child(2), .benefitsImage{
+        text-align:center !important;
+        margin-bottom: 50px;
+    }
+    #headerSection{
+        flex-wrap: wrap-reverse;
+    }
+    #benefitsCards, .CardL, .CardLast{
+        text-align:center !important;
+    }
+    #cardAboutUs{
+        margin:0;
+    }
+}
+@media only screen and (max-width:425px){
+    .borderRight, .borderRight1{
+        display:none;
+    }
+    .CardBorder, .CardBorder1{
+        border-bottom: 1px solid #ED3E3E !important;
+    }
+    .cardM, .CardBorder, .CardBorder1{
+        margin:10px 0;
+    }
+    .CardL{
+        border:none !important;
+    }
+}
+

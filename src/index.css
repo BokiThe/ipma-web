@@ -25,3 +25,22 @@ code {
 
   width:100%;
 }
+
+/* Media Screens */
+/* Tablet */
+@media only screen and (max-width:768px) {
+  .navLink, .dropdown-toggle, .cardLink{
+    font-size: 12px !important;
+}
+.cardLink{
+    margin: 0;
+    padding-top: 6px;
+}
+
+
+.row{
+  flex-wrap: wrap;
+}
+
+
+}

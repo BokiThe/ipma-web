@@ -11,9 +11,11 @@ import "./card.css";
 const CardFolowUs = (props) => {
   return (
     <div className={props.className}>
-      <TextComponent className="title-m" text={props.title} />
-      <div className="titleBorder">
-        <div className="filler"></div>
+      <div>
+        <TextComponent className="title-m" text={props.title} />
+        <div className="titleBorder">
+          <div className="filler"></div>
+        </div>
       </div>
 
       <Row className="mt-3 mb-3">

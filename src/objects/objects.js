@@ -1,7 +1,4 @@
 import blog_image from "../assets/ilustrations/blog_image.svg";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import TextComponent from "../elements/text/text";
 import profilePicture_image from "../assets/ilustrations/profilePicture_image.svg";
 
 export const blogSections = [
@@ -11,7 +8,7 @@ export const blogSections = [
     src: blog_image,
     title: "Creative project management and practices for 2021",
     href: "#",
-    linkId: "blogLink",
+
     linkText: "Read more >>",
   },
   {
@@ -20,7 +17,7 @@ export const blogSections = [
     src: blog_image,
     title: "Creative project management and practices for 2021",
     href: "#",
-    linkId: "blogLink",
+
     linkText: "Read more >>",
   },
   {
@@ -29,7 +26,7 @@ export const blogSections = [
     src: blog_image,
     title: "Creative project management and practices for 2021",
     href: "#",
-    linkId: "blogLink",
+
     linkText: "Read more >>",
   },
   {
@@ -38,7 +35,7 @@ export const blogSections = [
     src: blog_image,
     title: "Creative project management and practices for 2021",
     href: "#",
-    linkId: "blogLink",
+
     linkText: "Read more >>",
   },
 ];

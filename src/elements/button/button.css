@@ -3,9 +3,8 @@
     border-radius: 8px;
     color:#ED3E3E;
     background:white;
-    width: 224px;
-    padding: 10px 10px;
-    margin: 30px 10px;
+    width: 100%;
+    padding: 10px;
     font-size: 16px;
 }
 .btnLarge:hover{
@@ -14,14 +13,17 @@
     color:white;
 }
 .btnCard {
+    display:inline-block;
     border: 1.25px solid #ED3E3E;
     border-radius: 8px;
     color:#ED3E3E;
     background:white;
-    width: 224px;
+    width: 100%;
     padding: 10px 10px;
-    margin: 40px 0px 20px 0px;
+    margin:20px 0px;
     font-size: 16px;
+    text-decoration: none;
+    text-align:center;
 }
 .btnCard:hover{
     background: #ED3E3E;
@@ -47,4 +49,14 @@
     border: none;
     background:transparent;
     color:#ED3E3E;
+}
+
+/* TABLET */
+
+@media only screen and (max-width:768px) {
+   
+    .btnCard{
+        width:100% !important;
+    }
+
 }
