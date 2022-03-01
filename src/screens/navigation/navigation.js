@@ -17,13 +17,13 @@ const NavBar = () => {
   return (
     <Container fluid className="p-5">
       <Row style={{ margin: "0", marginBottom: "25px" }} key={1}>
-        <Col className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12" key={1}>
+        <Col className="p-0 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12" key={1}>
           <Link to="/">
             <Image src={IPMA_nav_logo} alt="IPMA_nav_logo" />
           </Link>
         </Col>
         <Col
-          className=" col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12"
+          className="p-0 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12"
           style={{ textAlign: "end" }}
           key={2}
         >
@@ -46,7 +46,7 @@ const NavBar = () => {
           </div>
         </Col>
       </Row>
-      <hr style={{ opacity: "20%", color: "#04151F" }} />
+      <hr style={{ opacity: "20%", color: "#04151F", margin: "0 1%" }} />
       <Row className="p-0 m-0">
         <Navbar collapseOnSelect expand="lg">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
