@@ -147,6 +147,13 @@
     .benefBorderRight{
         display: none !important;
     }
+    .contactSpan{
+        border:none !important;
+        display: inline-block;
+        width: 100% !important;
+        text-align: center !important;
+        padding: 0 !important;
+    }
 }
 @media only screen and (max-width:600px){
     .borderRight, .borderRight1{

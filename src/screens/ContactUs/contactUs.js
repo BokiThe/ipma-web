@@ -39,6 +39,7 @@ const ContactUs = () => {
             className="LevelInput"
             // cols="30"
             // rows="20"
+            style={{ height: "168px" }}
             placeholder="Enter your message here"
           ></textarea>
           <input className="LevelSubmit" type="submit" value="Submit" />
@@ -51,7 +52,7 @@ const ContactUs = () => {
         }}
       >
         <span
-          className="title-s"
+          className="title-s contactSpan"
           style={{
             width: "40%",
             textAlign: "right",
@@ -60,7 +61,7 @@ const ContactUs = () => {
         >
           Call: +1 267 277 6244
         </span>
-        <span className="title-s" style={{ width: "50%" }}>
+        <span className="title-s contactSpan" style={{ width: "50%" }}>
           Email: Support@ipmaireland.com
         </span>
       </Row>

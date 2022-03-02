@@ -33,7 +33,10 @@ const LatestBlogspots = () => {
       <Row style={{ padding: "10% 10% 0 10%", margin: "0" }}>
         {currentNews.map((news, index) => {
           return (
-            <Col key={index} className="col-3">
+            <Col
+              key={index}
+              className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12"
+            >
               <CardLatestNews
                 src={news.src}
                 title={news.title}
