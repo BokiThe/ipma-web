@@ -5,9 +5,9 @@ import LevelHeader from "../../elements/levelCertification/levelHeader";
 
 const ContactUs = () => {
   return (
-    <Container fluid>
+    <Container fluid className="m-0 p-0">
       {/* --- HEADER -- */}
-      <Row className="m-0 mb-5">
+      <Row className="m-0 mb-5 p-0 LevelHeader">
         <LevelHeader
           title="Contact Us"
           subtitle="Fill the form below with your message and email address and we will get back to you as soon as possible."
@@ -19,7 +19,6 @@ const ContactUs = () => {
         <form
           className="LevelForm"
           style={{
-            justifyContent: "space-around !important",
             borderBottom: "1.5px solid rgba(4,21,31,0.4)",
             paddingBottom: "30px",
           }}
@@ -38,8 +37,8 @@ const ContactUs = () => {
             name="message"
             id="contactMessage"
             className="LevelInput"
-            cols="30"
-            rows="20"
+            // cols="30"
+            // rows="20"
             placeholder="Enter your message here"
           ></textarea>
           <input className="LevelSubmit" type="submit" value="Submit" />

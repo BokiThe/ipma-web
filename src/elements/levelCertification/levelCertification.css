@@ -3,7 +3,6 @@
     flex-direction: column;
     flex: 1;
     justify-content: center;
-    width:100vw;
     height: 444px;
     padding: 0px 20%;
     text-align: center;
@@ -24,16 +23,16 @@
     width: 100%;
     padding:0;
     margin:0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
 .LevelInput{
     padding: 10px;
+    margin: 20px 0;
     border-radius: 8px;
     border: 1px solid #04151F;
 }
@@ -54,6 +53,7 @@
     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='16' ry='16' stroke='black' stroke-width='3' stroke-dasharray='80%2c40' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
 border-radius: 16px;
     padding: 20% 0;
+    margin: 20px 0;
     
 
 }
@@ -95,3 +95,13 @@ border-radius: 16px;
     padding-bottom: 20px !important;
     margin-bottom: 10px !important;
 }
+@media only screen and (max-width:768px) {
+   .vertical-timeline-element-content{
+       padding: 1% 0px 0px 16% !important;
+   }
+}
+@media only screen and (max-width:370px) {
+    .vertical-timeline-element-content{
+        padding: 60px 0px 0px 16% !important;
+    }
+ }

@@ -17,7 +17,7 @@ const AboutUs = () => {
   return (
     <Container fluid className="p-0 m-0">
       {/* HEADER */}
-      <Row className="p-0 m-0">
+      <Row className="p-0 m-0 LevelHeader">
         <LevelHeader title="About us" href="#" />
       </Row>
       {/* --- IPMA Ireland --- */}

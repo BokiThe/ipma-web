@@ -16,9 +16,9 @@ import publicCostumer3_logo from "../../assets/logos/publicCostumer3_logo.svg";
 
 const Costumers = () => {
   return (
-    <Container fluid>
+    <Container fluid className="m-0 p-0 ">
       {/* --- HEADER -- */}
-      <Row className="m-0 mb-5">
+      <Row className="m-0 mb-5 p-0 LevelHeader">
         <LevelHeader title="IPMA Ireland Costumers" href="#" />
       </Row>
       {/* --- INFO SECTION --- */}

@@ -8,12 +8,12 @@ import "./levelCertification.css";
 const LevelInfo = (props) => {
   return (
     <Container fluid className={props.className}>
-      <Row className="p-0 m-0">
-        <Col className="p-0 col-5">
+      <Row className="p-0 m-0 justify-content-between">
+        <Col className="p-0 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
           <TextComponent className="title-s" text={props.title} />
         </Col>
         <Col
-          className="col-7 p-0"
+          className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 p-0"
           style={{
             alignItems: "center",
             display: "grid",

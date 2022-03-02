@@ -12,9 +12,9 @@ import LevelVerticalTimeline from "../../elements/levelCertification/levelTimeLi
 import videoExplanation_image from "../../assets/ilustrations/videoExplanation_image.svg";
 const ReCertificationAC = () => {
   return (
-    <Container fluid style={{ width: "100vw" }}>
+    <Container fluid className="p-0 m-0">
       {/* --- HEADER --- */}
-      <Row className="m-0 mb-5">
+      <Row className="m-0 mb-5 LevelHeader">
         <LevelHeader
           title="Re-certification for level A-C"
           subtitle="Certified project managers (certificate holders) of all levels must apply for and pass the re-certification process after the specfied number of years to retain their certification."
@@ -74,9 +74,12 @@ const ReCertificationAC = () => {
               style={{ borderBottom: "1.5px solid rgba(4,21,31,0.4)" }}
             >
               <Col className="p-0 m-0">
-                <TextComponent className="subtitle" text="IPMA® Level A" />
+                <TextComponent
+                  className="subtitle text-start"
+                  text="IPMA® Level A"
+                />
               </Col>
-              ,
+
               <Col className="p-0 m-0">
                 <TextComponent className="subtitle text-end" text="€600" />
               </Col>
@@ -86,9 +89,12 @@ const ReCertificationAC = () => {
               style={{ borderBottom: "1.5px solid rgba(4,21,31,0.4)" }}
             >
               <Col className="p-0 m-0">
-                <TextComponent className="subtitle" text="IPMA® Level B" />
+                <TextComponent
+                  className="subtitle text-start"
+                  text="IPMA® Level B"
+                />
               </Col>
-              ,
+
               <Col className="p-0 m-0">
                 <TextComponent className="subtitle text-end" text="€500" />
               </Col>
@@ -98,9 +104,12 @@ const ReCertificationAC = () => {
               style={{ borderBottom: "1.5px solid rgba(4,21,31,0.4)" }}
             >
               <Col className="p-0 m-0">
-                <TextComponent className="subtitle" text="IPMA® Level C" />
+                <TextComponent
+                  className="subtitle text-start"
+                  text="IPMA® Level C"
+                />
               </Col>
-              ,
+
               <Col className="p-0 m-0">
                 <TextComponent className="subtitle text-end" text="€400" />
               </Col>

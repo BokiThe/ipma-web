@@ -16,9 +16,9 @@ import {
 
 const OrganisationStructure = () => {
   return (
-    <Container fluid style={{ width: "100vw" }}>
+    <Container fluid className="p-0 m-0">
       {/* --- HEADER --- */}
-      <Row className="m-0 mb-5">
+      <Row className="m-0 mb-5 LevelHeader">
         <LevelHeader title="IPMA Ireland Organisation Structure" href="#" />
       </Row>
       {/* --- ORG INFO --- */}
@@ -46,7 +46,10 @@ const OrganisationStructure = () => {
             <Row className="p-0 m-0">
               {SchemeCommittee.map((profile, index) => {
                 return (
-                  <Col key={index} className="col-4 p-3">
+                  <Col
+                    key={index}
+                    className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12  p-3"
+                  >
                     <OrgCard
                       ImgSrc={profile.imgSrc}
                       fullName={profile.fullName}
@@ -63,7 +66,10 @@ const OrganisationStructure = () => {
             <Row className="p-0 m-0">
               {ComplaintsAppealsCommittee.map((profile, index) => {
                 return (
-                  <Col key={index} className="col-4 p-3">
+                  <Col
+                    key={index}
+                    className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 p-3"
+                  >
                     <OrgCard
                       ImgSrc={profile.imgSrc}
                       fullName={profile.fullName}
@@ -86,7 +92,10 @@ const OrganisationStructure = () => {
             <Row className="p-0 m-0">
               {Assessors.map((profile, index) => {
                 return (
-                  <Col key={index} className="col-4 p-3">
+                  <Col
+                    key={index}
+                    className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 p-3"
+                  >
                     <OrgCard
                       ImgSrc={profile.imgSrc}
                       fullName={profile.fullName}
@@ -101,7 +110,10 @@ const OrganisationStructure = () => {
             <Row className="p-0 m-0">
               {NewCoAssessors.map((profile, index) => {
                 return (
-                  <Col key={index} className="col-4 p-3">
+                  <Col
+                    key={index}
+                    className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 p-3"
+                  >
                     <OrgCard
                       ImgSrc={profile.imgSrc}
                       fullName={profile.fullName}
@@ -116,7 +128,10 @@ const OrganisationStructure = () => {
             <Row className="p-0 m-0">
               {Adminstrations.map((profile, index) => {
                 return (
-                  <Col key={index} className="col-4 p-3">
+                  <Col
+                    key={index}
+                    className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 p-3"
+                  >
                     <OrgCard
                       ImgSrc={profile.imgSrc}
                       fullName={profile.fullName}

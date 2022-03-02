@@ -12,9 +12,9 @@ import LevelVerticalTimeline from "../../elements/levelCertification/levelTimeLi
 import videoExplanation_image from "../../assets/ilustrations/videoExplanation_image.svg";
 const LevelCertificationA = () => {
   return (
-    <Container fluid style={{ width: "100vw" }}>
+    <Container fluid className="p-0 m-0">
       {/* --- HEADER ---*/}
-      <Row className="m-0 mb-5">
+      <Row className="m-0 mb-5 p-0 LevelHeader">
         <LevelHeader
           title="IPMA Level A certification"
           subtitle="An IPMA certification Level A for project management requires that the candidate has acted in a very complex project environment that has a strategic impact on the organisation. "
@@ -75,15 +75,15 @@ const LevelCertificationA = () => {
           title="Re-certification cost"
           subtitleClass="mx-20"
           subtitle={[
-            <Row className="p-0 m-0">
-              <Col className="p-0 m-0">
-                <TextComponent className="subtitle" text="Total cost" />
-              </Col>
-              ,
-              <Col className="p-0 m-0">
-                <TextComponent className="subtitle text-end" text="€2’150" />
-              </Col>
-            </Row>,
+            <Col className="p-0 m-0 text-left">
+              <TextComponent
+                className="subtitle text-start"
+                text="Total cost"
+              />
+            </Col>,
+            <Col className="p-0 m-0 text-right">
+              <TextComponent className="subtitle text-end" text="€2’150" />
+            </Col>,
           ]}
         />
       </Row>

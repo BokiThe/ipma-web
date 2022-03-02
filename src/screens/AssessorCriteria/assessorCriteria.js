@@ -15,7 +15,7 @@ const AssessorCriteria = () => {
   return (
     <Container fluid className="p-0 m-0">
       {/* HEADER */}
-      <Row className="p-0 m-0">
+      <Row className="p-0 m-0 LevelHeader">
         <LevelHeader
           title="Assessors criteria"
           subtitle="IPMA Ireland will assess the suitability of the potential Assessors and, if they meet the criteria, will invite them to initial Assessor training."

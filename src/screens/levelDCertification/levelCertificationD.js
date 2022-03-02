@@ -12,9 +12,9 @@ import LevelVerticalTimeline from "../../elements/levelCertification/levelTimeLi
 import videoExplanation_image from "../../assets/ilustrations/videoExplanation_image.svg";
 const LevelCertificationD = () => {
   return (
-    <Container fluid style={{ width: "100vw" }}>
+    <Container fluid className="p-0 m-0">
       {/* --- HEADER --- */}
-      <Row className="m-0 mb-5">
+      <Row className="m-0 mb-5 LevelHeader">
         <LevelHeader
           title="IPMA Level D certification"
           subtitle="IPMA level D certification is a recognition of your knowledge about managing projects. To possess this, one needs to demonstrate the competences as described by the IPMA International Competence Baseline®"
@@ -73,7 +73,10 @@ const LevelCertificationD = () => {
           subtitleClass="mx-20"
           subtitle={[
             <Col className="p-0 m-0">
-              <TextComponent className="subtitle" text="Total cost" />
+              <TextComponent
+                className="subtitle text-start"
+                text="Total cost"
+              />
             </Col>,
 
             <Col className="p-0 m-0">

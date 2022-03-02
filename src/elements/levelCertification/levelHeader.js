@@ -3,9 +3,10 @@ import TextComponent from "../text/text";
 import Link from "../text/link";
 import vectorRedDown_icon from "../../assets/icons/vectorRedDown_icon.svg";
 import "./levelCertification.css";
+
 const LevelHeader = (props) => {
   return (
-    <div className="LevelHeader">
+    <div style={{ maxWidth: "840px", margin: "0 auto" }}>
       <TextComponent className="title-xl" text={props.title} />
       <TextComponent className="subtitle" text={props.subtitle} />
       <Link

@@ -22,9 +22,8 @@ const LatestNews = () => {
   return (
     <Container fluid className="p-0 m-0">
       {/* HEADER */}
-      <Row className="p-0 m-0">
+      <Row className="p-0 m-0  LevelHeader">
         <LevelHeader
-          className="LevelHeader"
           title="Latest news"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu nisi amet in pellentesque. Imperdiet ac amet arcu lectus in sodales tristique varius libero. Consectetur molestie turpis quis lorem rhoncus u lectus."
           href="#"

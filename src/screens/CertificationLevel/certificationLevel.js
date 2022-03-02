@@ -21,9 +21,9 @@ const CertificationLevel = () => {
     return <img src={vectorRedDown_icon} alt="vectorRedDown_image" />;
   };
   return (
-    <Container fluid>
+    <Container fluid className="p-0 m-0">
       {/* --- Header --- */}
-      <Row>
+      <Row className="p-0 mb-5 m-0 LevelHeader">
         <LevelHeader title="Certification levels" href="#" />
       </Row>
       {/* --- WHAT Certification Level Is Right for You? --- */}

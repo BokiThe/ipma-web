@@ -48,7 +48,7 @@
 /* TABLET  */
 @media only screen and (max-width:425px) {
     .col{
-        text-align: center;
+        text-align: center !important;
     }
     .row{
         margin: 20px 0 !important;

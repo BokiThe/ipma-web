@@ -14,7 +14,7 @@ const LevelCertificationC = () => {
   return (
     <Container fluid className="p-0 m-0">
       {/* --- HEADER --- */}
-      <Row className="m-0 mb-5">
+      <Row className="m-0 mb-5 LevelHeader">
         <LevelHeader
           title="IPMA Level C certification"
           subtitle="Level C certification proves that the holder is able to manage projects with moderate complexity and that they possess the competences as described by the IPMA International Competence Baseline®"
@@ -79,9 +79,11 @@ const LevelCertificationC = () => {
           subtitle={[
             <Row className="p-0 m-0">
               <Col className="p-0 m-0">
-                <TextComponent className="subtitle" text="Total cost" />
+                <TextComponent
+                  className="subtitle text-start"
+                  text="Total cost"
+                />
               </Col>
-              ,
               <Col className="p-0 m-0">
                 <TextComponent className="subtitle text-end" text="€1’300" />
               </Col>

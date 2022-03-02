@@ -89,7 +89,7 @@ const LevelVerticalTimeline = (props) => {
             </span>,
           ]}
         >
-          <Row className="p-0 m-0">
+          <Row className="p-0 m-0  timlineRow">
             <Col className="p-0 m-0">
               <TextComponent
                 className="vertical-timeline-element-title title-l"
