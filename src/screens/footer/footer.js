@@ -14,9 +14,9 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <Container fluid className=" p-5 m-0">
+    <Container fluid className="m-0">
       <Row className="m-0 p-0">
-        <Col className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12  p-1 m-0">
+        <Col className=" col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12  p-1 m-0">
           <CardContactComponent
             className="blogCard"
             title="Contact info"

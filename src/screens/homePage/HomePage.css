@@ -14,12 +14,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 1% 0;
     
 }
 #headerText{
     display: flex;
     flex-direction: column;
     flex: 1;
+    max-width: 600px;
 }
 
 
@@ -68,6 +70,7 @@
 /* LEVEL SECTION */
 .CardSection{
     margin:15px 0;
+    padding: 0;
 }
 .CardBorder{
     position:relative;
@@ -131,10 +134,17 @@
         margin-bottom: 50px;
     }
     #headerSection{
-        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
+        text-align: center;
     }
-    #benefitsCards, .CardL, .CardLast{
+    .headerBtns{
+        justify-content: center !important;
+    }
+    #benefitsCards, .CardL, .CardLast, #benefitsHeader{
         text-align:center !important;
+    }
+    #headerText{
+        margin:0 auto;
     }
     #cardAboutUs{
         margin:0;
