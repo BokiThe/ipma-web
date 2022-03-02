@@ -75,15 +75,6 @@
 .CardBorder{
     position:relative;
 }
-.borderRight{
-    content:'';
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 90%;
-    width:1px;
-    background-color:#ED3E3E
-}
 
 /* BENEFITS CARD SECTION */
 #benefitsHeader{
@@ -99,7 +90,7 @@
     width:100%;
 
 }
-.borderRight1{
+.borderRight1, .benefBorderRight, .borderRight{
     content:'';
     position: absolute;
     right: 0;
@@ -140,28 +131,52 @@
     .headerBtns{
         justify-content: center !important;
     }
-    #benefitsCards, .CardL, .CardLast, #benefitsHeader{
+    #benefitsCards, .CardL,.CardR, .CardLast,.CardLastL,.CardLastR, #benefitsHeader{
         text-align:center !important;
     }
     #headerText{
         margin:0 auto;
     }
     #cardAboutUs{
-        margin:0;
+        margin:0 auto !important;
+        width: 70% !important;
+    }
+    .CardM{
+        margin: 20px 0;
+    }
+    .benefBorderRight{
+        display: none !important;
     }
 }
-@media only screen and (max-width:425px){
+@media only screen and (max-width:600px){
     .borderRight, .borderRight1{
-        display:none;
+        display:none !important;
     }
     .CardBorder, .CardBorder1{
         border-bottom: 1px solid #ED3E3E !important;
     }
-    .cardM, .CardBorder, .CardBorder1{
-        margin:10px 0;
+    .CardBorder, .CardBorder1,.CardL, .CardR,.CardLast,.CardLastL,.CardLastR{
+        margin:0 auto !important;
     }
-    .CardL{
+    .CardM {
+        margin: 20px 0 !important;
+    } 
+    .CardL, .CardR{
         border:none !important;
     }
+    .headerBtns{
+       margin: 0 auto;
+    }
+    #projectMngSection{
+        width: 100%;
+        justify-content: center;
+        margin: 0 !important;
+    }
+    .CardSection{
+        margin:0;
+    }
+    .faq-row-wrapper{
+        margin: 20px 0 !important;
+    }
+    
 }
-

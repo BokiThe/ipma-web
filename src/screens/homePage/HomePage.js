@@ -69,7 +69,7 @@ const HomePage = () => {
       </Row>
       {/* --- GET TO KNOW US MORE --- */}
       <Row style={{ width: "100%", justifyContent: "space-between" }}>
-        <Col className="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  p-0 ">
+        <Col className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12  p-0 ">
           <TextComponent className="title-l" text="Get to know us more" />
           <TextComponent
             className="subtitle"
@@ -77,9 +77,9 @@ const HomePage = () => {
 "
           />
         </Col>
-        <Col className="p-0 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+        <Col className="p-0 col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
           <Row className="justify-content-between">
-            <Col className=" text-end" style={{ maxWidth: "110px" }}>
+            <Col className="text-end" style={{ maxWidth: "110px" }}>
               <TextComponent
                 style={{ textAlign: "left" }}
                 className="title-xl"
@@ -149,13 +149,13 @@ const HomePage = () => {
       </Row>
       {/* --- PROJECT MENAGMENT CERTIFICATION LEVELS --- */}
       <Row id="projectMngSection">
-        <Row>
+        <Row className="p-0 m-0">
           <TextComponent
             className="title-l"
             text="Project management certification levels"
           />
         </Row>
-        <Row>
+        <Row className="p-0 m-0">
           <TextComponent
             className="subtitle"
             text="IPMA offers an international, competency-based, four level certification (4-L-C) scheme. In your own country, in your own language, at your own competence level. "
@@ -165,7 +165,7 @@ const HomePage = () => {
       {/* --- Level Section --- */}
       <Row>
         <Row className="CardSection">
-          <Col className="CardBorder">
+          <Col className="CardBorder col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
             <CardComponent
               className="CardL"
               title="IPMA Level A"
@@ -176,7 +176,7 @@ const HomePage = () => {
             <div className="borderRight"></div>
           </Col>
 
-          <Col className="CardBorder1">
+          <Col className="CardBorder1 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
             <CardComponent
               className="CardR"
               title="IPMA Level B"
@@ -187,7 +187,7 @@ const HomePage = () => {
           </Col>
         </Row>
         <Row className="CardSection">
-          <Col className="CardBorder">
+          <Col className="CardBorder col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
             <CardComponent
               className="CardL"
               title="IPMA Level C"
@@ -197,7 +197,7 @@ const HomePage = () => {
             />
             <div className="borderRight"></div>
           </Col>
-          <Col className="CardBorder1">
+          <Col className="CardBorder1 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
             <CardComponent
               className="CardR"
               title="IPMA Level D"
@@ -208,7 +208,7 @@ const HomePage = () => {
           </Col>
         </Row>
         <Row className="CardSection">
-          <Col className="CardBorder">
+          <Col className="CardBorder col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
             <CardComponent
               className="CardLastL"
               title="Not sure what level to apply for?"
@@ -237,7 +237,10 @@ const HomePage = () => {
         />
       </Row>
       <Row id="benefitsCards">
-        <Col className="CardBorder" key={1}>
+        <Col
+          className="CardBorder col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12"
+          key={1}
+        >
           <CardImgComponent
             className="CardM"
             imgClass="cardImg"
@@ -248,7 +251,10 @@ const HomePage = () => {
           />
           <div className="borderRight1"></div>
         </Col>
-        <Col className="CardBorder" key={2}>
+        <Col
+          className="CardBorder col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12"
+          key={2}
+        >
           <CardImgComponent
             imgClass="cardImg"
             src={coin_image}
@@ -257,9 +263,12 @@ const HomePage = () => {
             title="Higher rates"
             subtitle="Contributes to higher billing rate, because you have provided evidence of your competences, experience and expertise level"
           />
-          <div className="borderRight1"></div>
+          <div className="benefBorderRight"></div>
         </Col>
-        <Col className="CardBorder" key={3}>
+        <Col
+          className="CardBorder col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12"
+          key={3}
+        >
           <CardImgComponent
             className="CardM"
             imgClass="cardImg"
@@ -270,7 +279,7 @@ const HomePage = () => {
           />
           <div className="borderRight1"></div>
         </Col>
-        <Col className="CardBorder1">
+        <Col className="CardBorder1 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
           <CardImgComponent
             className="CardM"
             imgClass="cardImg"
@@ -343,7 +352,10 @@ We’ve got you covered."
       <Row>
         {blogSections.map((blog, index) => {
           return (
-            <Col key={index}>
+            <Col
+              key={index}
+              className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12"
+            >
               <CardBlogComponent
                 className={blog.className}
                 imgClass={blog.imgClass}
